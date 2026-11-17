@@ -8,21 +8,21 @@ A nine-lesson English tutorial series following one woodland from a first scene 
 
 The download is about 46 MB. Extract the whole ZIP before opening the illustrated guides. The episode folders here contain the same guide/resource files for browsing; HTML guides are designed to open locally with their neighbouring Guide images. All game/editor pictures are genuine captures. Main-course logic uses native tools and node graphs, without Lua.
 
-## Release schedule
+## Watch the series
 
-One lesson per day, **17:00 America/Edmonton (ABT, UTC−6), November 17–25, 2026**. Videos remain private until their scheduled release. The playlist fills as lessons become public.
+All nine lessons are now public. Start with Episode 01 and follow the episode numbers in the playlist.
 
-| Episode | Lesson | Release in Edmonton | Guide |
+| Episode | Lesson | Video | Guide |
 |---|---|---|---|
-| 01 | Open the editor and build your first scene | 2026-11-17 17:00 ABT | [Guide](EP01/EP01_Follow_Along_EN.md) |
-| 02 | Build a scenic woodland | 2026-11-18 17:00 ABT | [Guide](EP02/EP02_Follow_Along_EN.html) |
-| 03 | Save, export and import | 2026-11-19 17:00 ABT | [Guide](EP03/EP03_Follow_Along_EN.html) |
-| 04 | Collect coins with native node graphs | 2026-11-20 17:00 ABT | [Guide](EP04/EP04_Follow_Along_EN.html) |
-| 05 | Bind a live progress bar | 2026-11-21 17:00 ABT | [Guide](EP05/EP05_Follow_Along_EN.html) |
-| 06 | Start and finish a two-minute challenge | 2026-11-22 17:00 ABT | [Guide](EP06/EP06_Follow_Along_EN.html) |
-| 07 | Configure ordinary and Ultimate achievements | 2026-11-23 17:00 ABT | [Guide](EP07/EP07_Follow_Along_EN.html) |
-| 08 | Diagnose a binding fault and verify a restored save | 2026-11-24 17:00 ABT | [Guide](EP08/EP08_Follow_Along_EN.html) |
-| 09 | Convert a supported Blender box prop | 2026-11-25 17:00 ABT | [Guide](EP09/EP09_Follow_Along_EN.html) |
+| 01 | Open the editor and build your first scene | [Watch](https://youtu.be/N1nxsRfl1ic) | [Guide](EP01/EP01_Follow_Along_EN.md) |
+| 02 | Build a scenic woodland | [Watch](https://youtu.be/-zKzMCAJatI) | [Guide](EP02/EP02_Follow_Along_EN.html) |
+| 03 | Save, export and import | [Watch](https://youtu.be/QTfudcR40Uw) | [Guide](EP03/EP03_Follow_Along_EN.html) |
+| 04 | Collect coins with native node graphs | [Watch](https://youtu.be/ddoFuHP8dpA) | [Guide](EP04/EP04_Follow_Along_EN.html) |
+| 05 | Bind a live progress bar | [Watch](https://youtu.be/Ko8-pqRldas) | [Guide](EP05/EP05_Follow_Along_EN.html) |
+| 06 | Start and finish a two-minute challenge | [Watch](https://youtu.be/B2L9fElFT6Q) | [Guide](EP06/EP06_Follow_Along_EN.html) |
+| 07 | Configure ordinary and Ultimate achievements | [Watch](https://youtu.be/4KEup2TveAs) | [Guide](EP07/EP07_Follow_Along_EN.html) |
+| 08 | Diagnose a binding fault and verify a restored save | [Watch](https://youtu.be/242Nbm00q-w) | [Guide](EP08/EP08_Follow_Along_EN.html) |
+| 09 | Convert a supported Blender box prop | [Watch](https://youtu.be/8TBHKgbapNI) | [Guide](EP09/EP09_Follow_Along_EN.html) |
 
 ## Follow along
 
