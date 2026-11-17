@@ -1,0 +1,426 @@
+1
+00:00:00,256 --> 00:00:06,153
+You have a woodland worth keeping. Let's take it out of the
+editor, bring it back as a separate save,
+
+2
+00:00:06,187 --> 00:00:10,170
+and check that it still works. Then we'll export one piece of the
+scene,
+
+3
+00:00:10,204 --> 00:00:14,086
+so you can see the difference between a whole project and a
+reusable asset.
+
+4
+00:00:19,771 --> 00:00:25,930
+We'll make a lesson copy, export and import the whole save, and
+check a few objects in the imported version.
+
+5
+00:00:26,054 --> 00:00:31,909
+After a short play test, we'll export one Stone Road and transfer
+it into an empty sandbox.
+
+6
+00:00:32,113 --> 00:00:35,000
+Keep your original woodland available throughout this lesson.
+
+7
+00:00:35,642 --> 00:00:39,683
+Start in the finished woodland. Open the System Menu and Quick
+Save.
+
+8
+00:00:39,738 --> 00:00:44,974
+Wait for the saved confirmation before leaving. Quick Save stores
+the current editing save.
+
+9
+00:00:45,029 --> 00:00:48,025
+It doesn't give you a separate file in a folder on your computer.
+
+10
+00:00:48,101 --> 00:00:51,316
+For that, we need the export operation on the save page.
+
+11
+00:00:52,086 --> 00:00:54,621
+Return to the save page from the editor's menu.
+
+12
+00:00:54,646 --> 00:01:00,138
+If you're starting from the normal game instead, open the Paimon
+Menu and My Miliastra Wonderland.
+
+13
+00:01:00,278 --> 00:01:04,514
+This page lists your editing saves. Select the woodland card
+carefully,
+
+14
+00:01:04,568 --> 00:01:08,631
+because the card you choose determines which project the next
+operation uses.
+
+15
+00:01:09,489 --> 00:01:14,180
+Open the card's menu and choose Copy Save. Give the copy a useful
+lesson name.
+
+16
+00:01:14,286 --> 00:01:19,864
+Here, it's Woodland Workshop, episode three. The earlier lesson
+remains on its own card.
+
+17
+00:01:19,918 --> 00:01:24,322
+A separate copy gives us somewhere to practise without changing
+the version we just finished.
+
+18
+00:01:24,484 --> 00:01:26,404
+Check the new card before continuing.
+
+19
+00:01:36,438 --> 00:01:41,120
+On the lesson copy, open the card menu again and choose Export
+Save File.
+
+20
+00:01:44,872 --> 00:01:49,959
+A file dialog opens. Choose your own project folder and enter a
+recognisable file name.
+
+21
+00:01:49,992 --> 00:01:52,908
+The whole-save file ends in dot G I L.
+
+22
+00:01:53,032 --> 00:01:57,038
+I'll show the relevant parts of the dialog enlarged, so you can
+read them.
+
+23
+00:01:57,766 --> 00:02:01,466
+The name on the editor card and the name of the exported file are
+separate.
+
+24
+00:02:01,563 --> 00:02:07,788
+Changing one doesn't rename the other. I use Woodland, episode
+three, Tutorial for this export.
+
+25
+00:02:07,906 --> 00:02:12,760
+You can use your own name. Keep the file extension and choose a
+folder you'll be able to find again.
+
+26
+00:02:13,494 --> 00:02:17,663
+Think of this file as a copy of this editing project at the moment
+it was exported.
+
+27
+00:02:17,761 --> 00:02:19,882
+It isn't a live connection to the card.
+
+28
+00:02:19,979 --> 00:02:24,588
+If you change the woodland later, export again when you want an
+updated external copy.
+
+29
+00:02:24,656 --> 00:02:28,513
+Keep an earlier file separately if you want to preserve that
+earlier state.
+
+30
+00:02:29,289 --> 00:02:32,511
+Back on the save page, choose Import Save.
+
+31
+00:02:33,183 --> 00:02:37,791
+Find the dot G I L file you just exported, select it, and open it.
+
+32
+00:02:38,428 --> 00:02:44,027
+Wait for the new card to appear. Check that the source lesson and
+the imported card are both still available.
+
+33
+00:02:44,052 --> 00:02:46,698
+We're going to open the imported one for the next checks.
+
+34
+00:02:47,370 --> 00:02:51,539
+Our imported card is called Woodland, episode three, Tutorial.
+
+35
+00:02:51,722 --> 00:02:55,367
+Before editing anything, check its title and recognise the scene.
+
+36
+00:02:55,496 --> 00:03:00,156
+A familiar thumbnail alone is easy to misread when several copies
+look the same.
+
+37
+00:03:00,318 --> 00:03:05,666
+Keep track of the source card, the external file, and the imported
+card as three separate things.
+
+38
+00:03:06,453 --> 00:03:10,239
+Select a Stone Road group and read its name and Transform values.
+
+39
+00:03:10,379 --> 00:03:15,843
+Then look at the tree, rock, and Rain Pavilion. We're checking
+that different parts of the arrangement
+
+40
+00:03:15,868 --> 00:03:21,424
+came across, rather than assuming that one visible object proves
+the entire save is correct.
+
+41
+00:03:21,542 --> 00:03:24,888
+Your own scene may use different models or coordinates.
+
+42
+00:03:31,455 --> 00:03:36,435
+Quick Save the imported version and start a private Test Play.
+Wait for the character to appear.
+
+43
+00:03:36,618 --> 00:03:42,141
+Look towards the pavilion, walk a short distance along the central
+stones, and release the movement key.
+
+44
+00:03:42,226 --> 00:03:46,438
+In this check, the route is visible and the character moves along
+the ground.
+
+45
+00:03:46,664 --> 00:03:49,944
+Test your own important interactions when your project has them.
+
+46
+00:04:06,432 --> 00:04:11,379
+Leave the private test, return to the imported editing save, and
+save any changes.
+
+47
+00:04:11,528 --> 00:04:15,782
+This short test checks the restored scene and a small part of its
+walking route.
+
+48
+00:04:15,880 --> 00:04:17,873
+It doesn't check every possible action.
+
+49
+00:04:17,970 --> 00:04:23,776
+Later, when the challenge has coins and a timer, those systems
+will need their own checks after import.
+
+50
+00:04:29,440 --> 00:04:34,847
+Now we have a whole woodland again. What if we only want one set
+of stones for another project?
+
+51
+00:04:35,029 --> 00:04:41,404
+Exporting the entire save would carry much more than we need.
+Asset export makes a different kind of file,
+
+52
+00:04:41,429 --> 00:04:46,592
+ending in dot G I A. We'll try it with one selected Stone Road
+entity.
+
+53
+00:04:47,285 --> 00:04:50,388
+Select the Stone Road in the scene and check its name on the
+right.
+
+54
+00:04:50,442 --> 00:04:54,282
+Right-click the selected entity, then choose Export Entity.
+
+55
+00:05:02,271 --> 00:05:07,163
+Choose a file name for this asset and save it. The selection
+matters here: this example
+
+56
+00:05:07,188 --> 00:05:12,569
+exports one placed Stone Road group, with its several visible
+stones, as one entity.
+
+57
+00:05:13,419 --> 00:05:18,642
+The official guide also explains that an exported entity can carry
+its associated prefab and
+
+58
+00:05:18,667 --> 00:05:24,009
+mounted node graphs. When several assets refer to each other,
+exporting the related content
+
+59
+00:05:24,128 --> 00:05:29,335
+together helps preserve their relationships. Our scenery example
+is deliberately small.
+
+60
+00:05:29,432 --> 00:05:33,758
+We haven't built or checked a package of linked gameplay systems
+in this lesson.
+
+61
+00:05:34,599 --> 00:05:38,747
+For the import demonstration, open a separate blank lesson save.
+
+62
+00:05:38,908 --> 00:05:43,505
+I call this the Asset Sandbox. Keep the restored woodland
+untouched.
+
+63
+00:05:43,562 --> 00:05:48,435
+An empty scene makes the result easy to recognise: if the asset
+transfer works,
+
+64
+00:05:48,511 --> 00:05:53,874
+we should get the selected Stone Road, rather than the trees,
+pavilion, and the rest of the route.
+
+65
+00:05:54,564 --> 00:05:58,477
+Open the System Menu, then Manage Asset Import and Export.
+
+66
+00:05:58,576 --> 00:06:04,152
+Switch to Import and Transfer, and choose Load External Assets.
+Follow the load prompt.
+
+67
+00:06:04,208 --> 00:06:09,356
+Our exported Stone Road appears in the list. Loading an asset
+makes it available in this tool;
+
+68
+00:06:09,390 --> 00:06:12,614
+we still need to select and transfer it into the current save.
+
+69
+00:06:13,318 --> 00:06:19,224
+Select the Stone Road and choose Transfer Selected Assets. Read
+the confirmation before accepting it.
+
+70
+00:06:19,309 --> 00:06:24,489
+In this version, object entities go directly into the current
+save, and the transfer clears
+
+71
+00:06:24,514 --> 00:06:29,950
+its undo and redo history. That's why we're demonstrating the
+operation in the empty sandbox.
+
+72
+00:06:30,076 --> 00:06:33,101
+Check the current save and selection before you confirm.
+
+73
+00:06:36,332 --> 00:06:40,586
+After the transfer, one Stone Road group appears in the empty
+scene.
+
+74
+00:06:40,726 --> 00:06:46,255
+Select it and read back its name and Transform. There are several
+individual stones in the model,
+
+75
+00:06:46,289 --> 00:06:51,354
+but this selection is one entity. The woodland's trees and
+pavilion aren't here.
+
+76
+00:06:51,494 --> 00:06:55,494
+That visible difference tells us what this particular asset file
+contained.
+
+77
+00:06:56,302 --> 00:07:01,141
+Quick Save the sandbox and wait for the confirmation. Keep the
+asset file as well if you
+
+78
+00:07:01,166 --> 00:07:06,160
+want to reuse it again. The current sandbox and the external asset
+are separate copies.
+
+79
+00:07:06,272 --> 00:07:10,790
+Editing the placed stones here won't automatically update the file
+you exported earlier.
+
+80
+00:07:11,684 --> 00:07:15,612
+For your own check, find the whole-save file and import it
+separately.
+
+81
+00:07:15,679 --> 00:07:21,372
+Open the new card, recognise the scene, inspect a few objects, and
+try the important route.
+
+82
+00:07:21,398 --> 00:07:26,280
+Then identify the single-entity asset and explain what it should
+add to an empty save.
+
+83
+00:07:26,452 --> 00:07:30,172
+Being able to find and verify these copies is the useful skill.
+
+84
+00:07:31,023 --> 00:07:35,641
+Keep your lesson saves and external files clearly named as the
+series grows.
+
+85
+00:07:35,759 --> 00:07:40,112
+You don't need to copy my exact folder names. You do need to know
+which file is
+
+86
+00:07:40,137 --> 00:07:44,733
+the whole project, which is the reusable asset, and which version
+you tested.
+
+87
+00:07:44,787 --> 00:07:48,588
+The companion guide includes the menu paths and the official
+references.
+
+88
+00:07:49,340 --> 00:07:55,216
+In the next lesson, we'll return to a copy of the complete
+woodland and make a collectible with native nodes.
+
+89
+00:07:55,314 --> 00:07:58,691
+Walking into it should count once and remove that coin.
+
+90
+00:07:58,849 --> 00:08:03,763
+We'll check that small interaction before adding the progress bar
+and the timed challenge.

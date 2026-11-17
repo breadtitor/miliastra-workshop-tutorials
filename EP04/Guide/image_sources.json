@@ -1,0 +1,164 @@
+[
+  {
+    "file": "Guide/01_dynamic.jpg",
+    "timeline_seconds": 68.46666666666667,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "e76dac4e39a44db6c5039e014965b4c81362e0f4f91fbce241574e8b62850fbd"
+  },
+  {
+    "file": "Guide/02_place.jpg",
+    "timeline_seconds": 83.76666666666667,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "9c8c0ea7fa4808caf25ccfb4cc87e8139133d3d22571105108fa9ccbbab92dff"
+  },
+  {
+    "file": "Guide/03_trigger_component.jpg",
+    "timeline_seconds": 104.76666666666667,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "9cdc62fba4d99c90208cb200b86657dbfd947b0ef793c4e98f5cf1b96b6dd5b8"
+  },
+  {
+    "file": "Guide/04_trigger_shape.jpg",
+    "timeline_seconds": 127.76666666666667,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "aa929e4d1e6e31787e548e892faf1bb2c328979654325ea551c81ca4d4ff701e"
+  },
+  {
+    "file": "Guide/05_ownership.jpg",
+    "timeline_seconds": 143.66666666666666,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "303c23a828ca0f192097dacca5c1ea4139b0834cd5f004aaf15d2d8f53e58942"
+  },
+  {
+    "file": "Guide/06_player_variables.jpg",
+    "timeline_seconds": 164.36666666666667,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "ad6647627322e25b0711533bedc9754e7d4d3f04683f89a8db25dd66531e085e"
+  },
+  {
+    "file": "Guide/07_coin_variable.jpg",
+    "timeline_seconds": 212.36666666666667,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "4994bc780117c5b41394c00ea02effa559a1f1fbee94c4ef1ae483da33501a23"
+  },
+  {
+    "file": "Guide/08_create_graph.jpg",
+    "timeline_seconds": 247.36666666666667,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "70e37c8efa5ccd53b007de2d8535e6166dcb9a48145451115d7d2afaad9b4099"
+  },
+  {
+    "file": "Guide/09_starter.jpg",
+    "timeline_seconds": 275.3666666666667,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "3823b8ee2459a8a0bb66928f4522cc85785f157317ff0cf5f7af03263071f8c5"
+  },
+  {
+    "file": "Guide/10_mount.jpg",
+    "timeline_seconds": 291.5,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "272d238a8c9490c8dc39622bbb5e6df5f5aa76c654d2bd53b09e02b7082c0649"
+  },
+  {
+    "file": "Guide/11_log.jpg",
+    "timeline_seconds": 311.6333333333333,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "29730f9656c058d754d033a1bb1b5af20ec4b12563363f3fbc4a5defe108f79f"
+  },
+  {
+    "file": "Guide/12_pins.jpg",
+    "timeline_seconds": 349.3666666666667,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "e0577c246c5c36469cbea674bc805c78c7b79cf368a4ee1e5ccb094c8481d249"
+  },
+  {
+    "file": "Guide/13_resolve_player.jpg",
+    "timeline_seconds": 368.1666666666667,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "00624f10729524501e3cb2ffe5cab0d935121e016622000d014dcae8dc552b81"
+  },
+  {
+    "file": "Guide/14_read_flag.jpg",
+    "timeline_seconds": 387.1666666666667,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "37eb7345c1b3d7838b1a53baa92dc0ecdafde2569492b2eaf10cf9c307e7bd8a"
+  },
+  {
+    "file": "Guide/15_set_flag.jpg",
+    "timeline_seconds": 405.1666666666667,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "46f47fb3eee6a42c8ba3f95888c377690cf55e2fbca5a75b5af593f772115377"
+  },
+  {
+    "file": "Guide/16_addition.jpg",
+    "timeline_seconds": 423.7,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "d22ce6d12a406e3a4a2c20b4b8bba1804349d3a4398ddbdcb34f9c388974ff4b"
+  },
+  {
+    "file": "Guide/17_write_count.jpg",
+    "timeline_seconds": 441.4,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "2a213ccfe11a9913a5e9e4f3e376450d264714474ab40402ddcf95a0ba9b6d01"
+  },
+  {
+    "file": "Guide/18_readback.jpg",
+    "timeline_seconds": 459.2,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "8f0aea72e97669ececaf8efba9b7099b0ced8f253bafc8cb34ab384dd9a681b8"
+  },
+  {
+    "file": "Guide/19_destroy.jpg",
+    "timeline_seconds": 479.23333333333335,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "ddf42e8c6887c3642b35e1d23ff33986d15ab1a9bd4a54423e32d8dc810aa630"
+  },
+  {
+    "file": "Guide/20_single_test.jpg",
+    "timeline_seconds": 488.6333333333333,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "1856357ab371f35bffe6ad240ee06d2a4e606327a5e201b4a794e34e8a7662c2"
+  },
+  {
+    "file": "Guide/21_single_log.jpg",
+    "timeline_seconds": 492.43333333333334,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "c7da7eae2a59edc50a24068a47842f7086158a17c7bb6499140fc422d9ce3bb3"
+  },
+  {
+    "file": "Guide/22_copies.jpg",
+    "timeline_seconds": 525.2333333333333,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "ef4bacecbca3154402af5c03769f986a4359985a09f8203bf78a6b0055a2fe44"
+  },
+  {
+    "file": "Guide/23_five_test.jpg",
+    "timeline_seconds": 537.0333333333333,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "cc4ba92887c1f7b22c4a4e8b84209a803b50bff3f93185e6aea08d2dae7548d0"
+  },
+  {
+    "file": "Guide/24_five_log.jpg",
+    "timeline_seconds": 552.2333333333333,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "60276417e9e4536d4a6c695289358d0cd84c9a678b38eb0ef4b6e49bf9c61ead"
+  },
+  {
+    "file": "Guide/25_retry.jpg",
+    "timeline_seconds": 562.4333333333333,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "8bd8f6ce6ca02d42839456045228394bdc47cd3952763d8cbb56258490b2e45c"
+  },
+  {
+    "file": "Guide/26_retry_log.jpg",
+    "timeline_seconds": 567.3,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "1af820128368802b6d356b5b61dcb61e3cad1a976543214eac701e69088b5c27"
+  },
+  {
+    "file": "Guide/27_checkpoint.jpg",
+    "timeline_seconds": 595.9666666666667,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "cf511e5a6c4a9fc748fb28ed842123241ce482789604142110a9e19df6c4465b"
+  }
+]

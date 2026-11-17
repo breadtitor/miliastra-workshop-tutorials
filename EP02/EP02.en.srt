@@ -1,0 +1,426 @@
+1
+00:00:00,213 --> 00:00:03,593
+A few objects become a landscape when they give you somewhere to
+go.
+
+2
+00:00:03,669 --> 00:00:08,799
+This woodland has a route, a clear destination, and scenery at
+different distances.
+
+3
+00:00:09,003 --> 00:00:11,928
+Let's build it from the small scene we made in the first lesson.
+
+4
+00:00:17,531 --> 00:00:23,599
+We'll plan the route first, add a destination, and frame the space
+with trees and smaller plants.
+
+5
+00:00:23,803 --> 00:00:28,214
+Then we'll walk through it at player height. You can choose
+different models and positions.
+
+6
+00:00:28,426 --> 00:00:32,365
+What matters is whether your scene is easy to read and comfortable
+to move through.
+
+7
+00:00:33,023 --> 00:00:36,894
+Start with a copy of your first lesson save, so the original stays
+available.
+
+8
+00:00:37,034 --> 00:00:40,490
+Our copy still has the tree on the right and the rock on the left.
+
+9
+00:00:40,600 --> 00:00:43,490
+If you're continuing from another layout, that's fine.
+
+10
+00:00:43,544 --> 00:00:48,730
+Keep a clear space between your two landmarks, and decide which
+direction the route should continue.
+
+11
+00:00:49,527 --> 00:00:51,790
+Look at the empty ground beyond the gap.
+
+12
+00:00:51,856 --> 00:00:58,094
+Imagine a person walking from the starting area towards one
+recognisable place. That line is our route.
+
+13
+00:00:58,170 --> 00:01:02,012
+Leave enough space beside it for the character and the camera.
+We're going to place
+
+14
+00:01:02,036 --> 00:01:06,326
+scenery around this space, rather than filling it and trying to
+cut a route through later.
+
+15
+00:01:07,018 --> 00:01:12,335
+In the Place library, open Static Units, then Landform, and choose
+Stone Road.
+
+16
+00:01:12,428 --> 00:01:18,453
+This model is a group of separate flat stones. It gives us a
+visual trail without covering the whole field.
+
+17
+00:01:18,699 --> 00:01:21,817
+Check its name on the right so you know which object you're
+editing.
+
+18
+00:01:21,972 --> 00:01:25,571
+These are scenery objects; we aren't adding any gameplay logic to
+them.
+
+19
+00:01:26,214 --> 00:01:32,038
+Use Location to move the group towards the opening. Keep an eye on
+the ground while you apply each change.
+
+20
+00:01:32,170 --> 00:01:35,336
+A number in the panel tells you where the object's origin is;
+
+21
+00:01:35,370 --> 00:01:41,019
+the visible model tells you whether it actually sits where you
+intended. The example coordinates help us work,
+
+22
+00:01:41,044 --> 00:01:44,779
+but you don't need to copy them. Check the placement from a lower
+view as well.
+
+23
+00:01:46,342 --> 00:01:53,413
+Now open Building and choose Rain Pavilion. Its roof and posts
+make a small, recognisable destination.
+
+24
+00:01:53,638 --> 00:01:56,858
+Put it beyond the tree and rock, where you can see it through the
+opening.
+
+25
+00:01:57,030 --> 00:02:00,453
+A focal point is simply the place you want someone to notice
+first.
+
+26
+00:02:00,572 --> 00:02:04,151
+It doesn't need to be the largest or most detailed object in the
+scene.
+
+27
+00:02:04,899 --> 00:02:08,175
+Check how much ground remains behind and around the pavilion.
+
+28
+00:02:08,200 --> 00:02:13,295
+If your destination is too close to the edge, bring it back before
+adding more detail. Here,
+
+29
+00:02:13,320 --> 00:02:18,506
+I move it closer to leave a more useful margin. We still need to
+test the approach in play mode.
+
+30
+00:02:18,596 --> 00:02:22,407
+An attractive editor view doesn't prove that the walking route
+works.
+
+31
+00:02:25,913 --> 00:02:31,661
+Add a few more Stone Road groups along the route. Move each new
+group into place before adding another,
+
+32
+00:02:31,716 --> 00:02:37,382
+so you can keep track of what is selected. Small changes in
+spacing make the trail feel less mechanical.
+
+33
+00:02:37,440 --> 00:02:42,249
+Keep the intended direction readable. The grass between the groups
+is part of this path;
+
+34
+00:02:42,304 --> 00:02:45,660
+we're making a trail, rather than a perfectly tiled pavement.
+
+35
+00:03:01,842 --> 00:03:05,063
+Use another Arbor to frame the opposite side of the approach.
+
+36
+00:03:05,193 --> 00:03:10,727
+Select its placed instance, then adjust its location. Here, I keep
+its original size.
+
+37
+00:03:10,910 --> 00:03:15,058
+Leave the central opening visible, and compare its silhouette with
+the first tree.
+
+38
+00:03:15,219 --> 00:03:17,711
+Different models don't always need the same scale.
+
+39
+00:03:17,794 --> 00:03:23,535
+If you resize a tree, keep all three Zoom values equal when you
+want to preserve its proportions.
+
+40
+00:03:28,927 --> 00:03:34,130
+Think in three distances. The foreground sits close to the viewer
+and frames the entrance.
+
+41
+00:03:34,236 --> 00:03:36,848
+The middle ground leads the eye along the trail.
+
+42
+00:03:37,010 --> 00:03:40,860
+The background sits behind the destination and stops it looking
+isolated.
+
+43
+00:03:41,063 --> 00:03:45,092
+These are roles in the picture, rather than three exact distances
+you must measure.
+
+44
+00:03:45,222 --> 00:03:49,270
+We'll use a few trees at each distance, with open space between
+the groups.
+
+45
+00:03:50,075 --> 00:03:52,964
+Choose a different Arbor shape for some of the later trees.
+
+46
+00:03:53,104 --> 00:03:58,710
+Change direction or size where it improves the outline, and leave
+uneven gaps between the trunks.
+
+47
+00:03:58,835 --> 00:04:02,642
+Repeating the same tree at identical intervals can look like a
+fence.
+
+48
+00:04:02,803 --> 00:04:08,317
+We want small groups with enough variation to feel natural, while
+keeping the pavilion easy to find.
+
+49
+00:04:08,478 --> 00:04:11,392
+More objects won't automatically make the composition better.
+
+50
+00:04:25,010 --> 00:04:28,326
+Open Vegetation and place a Shrub near the edge of the trail.
+
+51
+00:04:28,423 --> 00:04:32,208
+A low plant helps connect a large trunk to the ground around it.
+
+52
+00:04:32,306 --> 00:04:37,042
+Check the selected name before changing the size, then move it
+outside the walking space.
+
+53
+00:04:37,194 --> 00:04:42,387
+Add only a few more. From a high editor view, even a small plant
+can look harmless,
+
+54
+00:04:42,442 --> 00:04:44,826
+so we'll check the edges of the route during our walk.
+
+55
+00:05:02,032 --> 00:05:05,889
+Look towards the pavilion again. Can you still recognise its roof
+and opening?
+
+56
+00:05:06,057 --> 00:05:10,931
+If a tree or a branch hides the important part, move that piece of
+scenery aside.
+
+57
+00:05:11,007 --> 00:05:15,778
+Don't solve every gap by adding another object. Sometimes removing
+an obstruction,
+
+58
+00:05:15,875 --> 00:05:20,094
+or leaving a quiet patch of ground, makes the destination much
+clearer.
+
+59
+00:05:20,909 --> 00:05:23,875
+Lower the editing view to get a rough sense of the approach.
+
+60
+00:05:24,007 --> 00:05:30,118
+This is useful for checking the composition, but it still isn't
+the character's actual view or collision test.
+
+61
+00:05:30,322 --> 00:05:35,492
+Notice how the nearby trees frame the route, and how the distant
+trees sit behind the pavilion.
+
+62
+00:05:35,567 --> 00:05:38,137
+We're keeping the existing light for this comparison,
+
+63
+00:05:38,213 --> 00:05:41,966
+so a lighting change doesn't hide what the arrangement itself has
+done.
+
+64
+00:05:42,756 --> 00:05:48,909
+Quick Save, wait for the saved confirmation, and start a private
+Test Play from the System Menu.
+
+65
+00:05:49,113 --> 00:05:54,433
+Use the English test session, as in the first lesson. The saved
+scene is our editing project;
+
+66
+00:05:54,615 --> 00:05:57,547
+this test is where we check what the player can actually do.
+
+67
+00:05:57,645 --> 00:06:00,321
+Wait for the character to appear before judging the route.
+
+68
+00:06:10,665 --> 00:06:15,623
+Walk towards the opening, release the movement key to stop, and
+look at the destination.
+
+69
+00:06:15,913 --> 00:06:21,206
+Then continue along the stones. I'm checking that the route stays
+on the ground, that the scenery leaves
+
+70
+00:06:21,231 --> 00:06:27,480
+room to pass, and that the pavilion remains a useful landmark.
+Check your own route at normal walking height.
+
+71
+00:06:27,568 --> 00:06:31,132
+If something blocks you, return to the editor and move that
+object.
+
+72
+00:06:39,770 --> 00:06:45,152
+At the destination, stop and turn around. The scene should still
+make sense from this direction.
+
+73
+00:06:45,352 --> 00:06:51,442
+Look for an obvious way back, objects that seem to float, and
+places where foliage cuts across the camera.
+
+74
+00:06:51,582 --> 00:06:54,962
+A single attractive screenshot only covers one view.
+
+75
+00:06:55,122 --> 00:06:57,982
+This short walk gives us a better check of the space we're
+building.
+
+76
+00:06:58,813 --> 00:07:02,811
+Compare the simple starting scene with the woodland from a similar
+viewpoint.
+
+77
+00:07:02,951 --> 00:07:08,473
+The useful difference is the relationship between the objects: the
+stones suggest a route, the near
+
+78
+00:07:08,498 --> 00:07:14,576
+trees frame it, and the background supports the destination. The
+coordinates are still just one layout.
+
+79
+00:07:14,663 --> 00:07:18,854
+You can make a wider clearing or a different focal point while
+using the same ideas.
+
+80
+00:07:19,689 --> 00:07:25,447
+Leave the private test, return to this lesson's editing save, and
+Quick Save any final changes.
+
+81
+00:07:25,639 --> 00:07:28,166
+Keep the finished copy available for the next episode.
+
+82
+00:07:28,284 --> 00:07:32,112
+If you adjust the layout later, check the route again after the
+change.
+
+83
+00:07:32,253 --> 00:07:37,058
+Saving confirms the data was stored; walking through the space
+checks a different part of the work.
+
+84
+00:07:46,121 --> 00:07:49,693
+Before you move on, try this without looking at the recorded
+numbers.
+
+85
+00:07:49,876 --> 00:07:54,451
+Point out the route, the destination, and the three distances in
+your own scene.
+
+86
+00:07:54,569 --> 00:07:57,685
+Then walk from the start to the destination and back.
+
+87
+00:07:57,795 --> 00:08:02,716
+If the direction is clear and you can move comfortably, you've
+achieved the purpose of this lesson.
+
+88
+00:08:03,390 --> 00:08:05,532
+Keep this woodland as your working scene.
+
+89
+00:08:05,566 --> 00:08:10,786
+In the next lesson, we'll export a copy, import it separately, and
+check what came across.
+
+90
+00:08:10,911 --> 00:08:16,338
+That will give us a reliable way to share and recover the project
+before we add the coin challenge.

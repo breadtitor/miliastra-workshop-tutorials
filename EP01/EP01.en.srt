@@ -1,0 +1,648 @@
+1
+00:00:00,241 --> 00:00:02,349
+This small scene is our starting point:
+
+2
+00:00:02,374 --> 00:00:05,911
+a tree, a rock, and space to walk between them.
+
+3
+00:00:06,086 --> 00:00:08,493
+We're going to build it inside Genshin Impact,
+
+4
+00:00:08,561 --> 00:00:10,775
+starting from the button that opens the editor.
+
+5
+00:00:10,950 --> 00:00:13,223
+You don't need any previous editing experience.
+
+6
+00:00:18,395 --> 00:00:19,329
+Here's our route.
+
+7
+00:00:19,376 --> 00:00:20,353
+Find the editor.
+
+8
+00:00:20,443 --> 00:00:21,804
+Learn its main controls.
+
+9
+00:00:21,893 --> 00:00:23,638
+Place two scenery objects.
+
+10
+00:00:23,771 --> 00:00:26,732
+Change their position, direction, and size.
+
+11
+00:00:26,928 --> 00:00:29,356
+Then save and walk through the scene as a player.
+
+12
+00:00:29,466 --> 00:00:31,563
+Pause whenever you want to try it yourself.
+
+13
+00:00:31,684 --> 00:00:34,027
+Use the PC version with a keyboard and mouse,
+
+14
+00:00:34,074 --> 00:00:37,291
+and an account where Miliastra Wonderland is already unlocked.
+
+15
+00:00:37,487 --> 00:00:39,829
+These are English menus on the America server.
+
+16
+00:00:39,919 --> 00:00:41,782
+Start in the normal open world.
+
+17
+00:00:41,948 --> 00:00:44,205
+Press Escape to open the Paimon Menu.
+
+18
+00:00:44,252 --> 00:00:47,234
+Scroll down until you see the Miliastra Wonderland section.
+
+19
+00:00:47,324 --> 00:00:48,855
+Choose My Miliastra.
+
+20
+00:00:49,073 --> 00:00:52,383
+The nearby Wonderland button is for browsing and playing stages.
+
+21
+00:00:52,587 --> 00:00:55,698
+My Miliastra is the route to your own saves and editing.
+
+22
+00:00:56,532 --> 00:01:00,641
+If the section is missing, check your game's unlock requirements
+before continuing.
+
+23
+00:01:00,993 --> 00:01:02,332
+This is the save page.
+
+24
+00:01:02,443 --> 00:01:03,783
+Stay on Local Save.
+
+25
+00:01:03,894 --> 00:01:07,175
+A save contains your stage's settings and placed content.
+
+26
+00:01:07,393 --> 00:01:09,842
+Reopen an existing project with Edit.
+
+27
+00:01:09,995 --> 00:01:13,711
+For this lesson, choose Create New Save at the bottom right.
+
+28
+00:01:13,850 --> 00:01:17,664
+Give it a clear name, such as Woodland Workshop Episode One.
+
+29
+00:01:17,775 --> 00:01:19,491
+Keep your other projects as they are.
+
+30
+00:01:19,824 --> 00:01:22,199
+The next window asks for a stage mode.
+
+31
+00:01:22,365 --> 00:01:25,796
+The official guide explains that Beyond Mode uses Manekins,
+
+32
+00:01:25,864 --> 00:01:29,316
+while Classic Mode lets players bring their Teyvat characters.
+
+33
+00:01:29,619 --> 00:01:34,019
+This series uses Beyond Mode so we can build on the same setup in
+later lessons.
+
+34
+00:01:34,205 --> 00:01:38,489
+Select Beyond Mode, keep the other options as shown, then Confirm.
+
+35
+00:01:38,685 --> 00:01:40,878
+Wait for the empty editing scene to appear.
+
+36
+00:01:40,946 --> 00:01:43,378
+A blank field is enough for this first exercise.
+
+37
+00:01:44,848 --> 00:01:47,601
+Let's identify the workspace before changing anything.
+
+38
+00:01:47,846 --> 00:01:51,063
+The large middle area is the scene: the space you're building.
+
+39
+00:01:51,302 --> 00:01:54,070
+The Place panel on the left supplies things to put in it.
+
+40
+00:01:54,075 --> 00:01:57,783
+Selecting something in the scene opens its Details panel on the
+right.
+
+41
+00:01:58,001 --> 00:02:01,709
+The menu button at the upper left opens the editor's System Menu,
+
+42
+00:02:01,798 --> 00:02:05,271
+which contains saving, stage settings, and testing.
+
+43
+00:02:05,468 --> 00:02:09,197
+Escape now opens that editor menu, because we're inside the
+editor.
+
+44
+00:02:09,572 --> 00:02:12,939
+Practise the editor camera using the finished pair as a reference.
+
+45
+00:02:13,114 --> 00:02:16,138
+Click empty ground so you're not typing into a number box.
+
+46
+00:02:16,313 --> 00:02:19,372
+Hold the right mouse button and move the mouse to look around.
+
+47
+00:02:19,539 --> 00:02:22,564
+Keep it held and briefly press W to move forward.
+
+48
+00:02:22,653 --> 00:02:24,441
+Release W and stop.
+
+49
+00:02:24,531 --> 00:02:26,617
+Scroll backward to pull the view away.
+
+50
+00:02:26,749 --> 00:02:28,110
+Watch the landmarks.
+
+51
+00:02:28,243 --> 00:02:29,893
+This changes your editing view.
+
+52
+00:02:30,016 --> 00:02:33,651
+It does not move the objects or configure the player's starting
+position.
+
+53
+00:02:36,984 --> 00:02:40,820
+If that movement feels too fast, open the gear at the upper right.
+
+54
+00:02:40,952 --> 00:02:42,100
+This is Quick Settings.
+
+55
+00:02:42,189 --> 00:02:45,755
+Camera Horizontal Speed controls movement through the editing
+view.
+
+56
+00:02:45,873 --> 00:02:49,133
+In this example, I lower it from twenty-five to ten.
+
+57
+00:02:49,329 --> 00:02:51,885
+That gives us smaller, easier movements.
+
+58
+00:02:52,017 --> 00:02:55,832
+It changes the editor camera's speed, not the player's walking
+speed.
+
+59
+00:02:55,985 --> 00:02:58,857
+Close the settings and try one short movement again.
+
+60
+00:02:59,198 --> 00:03:02,079
+The active top tab is Entity Placement.
+
+61
+00:03:02,238 --> 00:03:04,451
+The official guide describes it as the place
+
+62
+00:03:04,456 --> 00:03:07,098
+to create scene entities and edit their data.
+
+63
+00:03:07,187 --> 00:03:10,682
+An entity is an individual item placed in your scene.
+
+64
+00:03:10,814 --> 00:03:13,380
+We'll use Static Units for the tree and rock.
+
+65
+00:03:13,631 --> 00:03:18,192
+Dynamic objects support gameplay features such as components and
+node graphs.
+
+66
+00:03:18,282 --> 00:03:22,356
+For this lesson, our scenery only needs placement and Transform
+settings.
+
+67
+00:03:22,740 --> 00:03:23,951
+Let's place the tree.
+
+68
+00:03:24,020 --> 00:03:28,901
+In Place, expand Prefabricated, then Static Units, then Tree.
+
+69
+00:03:29,097 --> 00:03:30,266
+Click an Arbor card.
+
+70
+00:03:30,420 --> 00:03:34,319
+The card is a library source; the outlined tree is the item we've
+placed.
+
+71
+00:03:34,473 --> 00:03:36,885
+Your initial location may differ with your view.
+
+72
+00:03:37,048 --> 00:03:39,037
+Check that the right panel says Arbor.
+
+73
+00:03:39,267 --> 00:03:41,673
+Open Transform in that Details panel.
+
+74
+00:03:41,827 --> 00:03:45,172
+The official guide defines it as the object's geometric settings:
+
+75
+00:03:45,198 --> 00:03:47,786
+Location, Rotate, and Zoom.
+
+76
+00:03:47,950 --> 00:03:51,423
+Begin with Location, which gives its position in world
+coordinates.
+
+77
+00:03:51,577 --> 00:03:55,668
+X and Z move across this flat field; Y controls height.
+
+78
+00:03:55,801 --> 00:04:00,307
+Click the X number, select its old value, type eight, then press
+Enter.
+
+79
+00:04:00,428 --> 00:04:04,370
+Set Y to zero and Z to sixteen, applying each field.
+
+80
+00:04:04,524 --> 00:04:06,162
+The tree may leave the current view.
+
+81
+00:04:06,188 --> 00:04:07,970
+Use the camera to find it again.
+
+82
+00:04:08,138 --> 00:04:10,395
+Turning the camera changes screen directions,
+
+83
+00:04:10,528 --> 00:04:13,147
+while the world-coordinate values stay the same.
+
+84
+00:04:16,505 --> 00:04:19,317
+Add a rock through Static Units, then Rock.
+
+85
+00:04:19,449 --> 00:04:22,709
+Choose an uneven shape with a recognisable long side.
+
+86
+00:04:22,863 --> 00:04:26,995
+Click its card, then check the outline and the name Rock on the
+right.
+
+87
+00:04:27,082 --> 00:04:31,686
+These checks matter: every value you type applies to the currently
+selected item.
+
+88
+00:04:31,861 --> 00:04:34,182
+Clicking empty ground cancels the selection,
+
+89
+00:04:34,336 --> 00:04:37,353
+so select the object again if its Details panel disappears.
+
+90
+00:04:37,772 --> 00:04:41,544
+Under Rotate, enter ninety in Y and press Enter.
+
+91
+00:04:41,740 --> 00:04:45,171
+Rotation changes direction while the location stays the same.
+
+92
+00:04:45,324 --> 00:04:47,325
+Ninety degrees is a quarter-turn.
+
+93
+00:04:47,458 --> 00:04:51,982
+Watch the long side of the rock turn, and compare its outline
+before and after.
+
+94
+00:04:52,162 --> 00:04:56,062
+This is easier to recognise on an uneven shape than on something
+round.
+
+95
+00:04:56,517 --> 00:04:58,454
+The next group is named Zoom.
+
+96
+00:04:58,650 --> 00:05:01,654
+In this panel, Zoom means object scale.
+
+97
+00:05:01,722 --> 00:05:03,985
+One represents the original size.
+
+98
+00:05:04,123 --> 00:05:07,617
+Zero point five makes a dimension half its original size.
+
+99
+00:05:07,792 --> 00:05:12,673
+Enter zero point five in X, apply it, then do the same for Y and
+Z.
+
+100
+00:05:12,784 --> 00:05:15,348
+Changing one axis changes the proportions.
+
+101
+00:05:15,532 --> 00:05:17,299
+When all three values match,
+
+102
+00:05:17,410 --> 00:05:21,032
+the object keeps its original proportions at a smaller size.
+
+103
+00:05:21,378 --> 00:05:25,064
+Here's the actual one-axis result beside the three-axis result.
+
+104
+00:05:27,321 --> 00:05:29,919
+Let's apply the same controls to finish our tree.
+
+105
+00:05:30,009 --> 00:05:31,370
+Select Arbor again.
+
+106
+00:05:36,580 --> 00:05:41,083
+For its size, enter one point two in all three Zoom fields.
+
+107
+00:05:41,243 --> 00:05:43,649
+That's twenty percent larger in each dimension.
+
+108
+00:05:43,803 --> 00:05:46,593
+Apply each field and check the tree in the scene.
+
+109
+00:05:49,820 --> 00:05:51,671
+Select the rock and set Location.
+
+110
+00:05:55,835 --> 00:05:58,924
+The objects now mark opposite sides of an open approach.
+
+111
+00:05:59,078 --> 00:06:00,332
+Bring both into view.
+
+112
+00:06:00,401 --> 00:06:02,177
+Leave the middle clear for walking.
+
+113
+00:06:02,326 --> 00:06:04,920
+Later, adjust the spacing for your own scene.
+
+114
+00:06:05,185 --> 00:06:09,297
+A recovery example: I change one tree scale value too far,
+
+115
+00:06:09,408 --> 00:06:11,516
+then use Undo in the upper toolbar.
+
+116
+00:06:11,627 --> 00:06:13,784
+Undo reverses a recent operation.
+
+117
+00:06:13,986 --> 00:06:18,014
+Watch the field return to one point two, then read the values
+back.
+
+118
+00:06:18,210 --> 00:06:22,003
+If you've selected the wrong object, stop typing and check its
+name.
+
+119
+00:06:22,178 --> 00:06:25,505
+Small, deliberate changes are easier to correct.
+
+120
+00:06:25,768 --> 00:06:26,809
+Save your work.
+
+121
+00:06:26,878 --> 00:06:31,161
+Open the upper-left System Menu and click the disk icon, Quick
+Save.
+
+122
+00:06:31,315 --> 00:06:33,103
+Wait for Saved successfully.
+
+123
+00:06:33,235 --> 00:06:35,876
+Saving writes the current stage data to your project.
+
+124
+00:06:35,957 --> 00:06:38,470
+Test Play checks the scene from inside the game.
+
+125
+00:06:38,636 --> 00:06:40,949
+Click Test Play in the System Menu.
+
+126
+00:06:41,094 --> 00:06:43,735
+The official guide says this runs validation and
+
+127
+00:06:43,740 --> 00:06:46,679
+prepares the test data before opening the test settings.
+
+128
+00:06:46,897 --> 00:06:49,922
+Here, the navmesh prompt offers Direct Upload.
+
+129
+00:06:50,054 --> 00:06:53,219
+Choose it for this simple example and let preparation finish.
+
+130
+00:06:53,363 --> 00:06:57,796
+In Test Play Options, check Player One and English as the test
+language.
+
+131
+00:06:58,099 --> 00:07:01,764
+Use the default Manekin for this lesson, then click Start Game.
+
+132
+00:07:01,896 --> 00:07:03,570
+Loading is shortened in the video.
+
+133
+00:07:03,845 --> 00:07:06,882
+This is an editor test, separate from making a public release.
+
+134
+00:07:12,386 --> 00:07:13,945
+Here's our scene at player height.
+
+135
+00:07:13,965 --> 00:07:17,651
+Hold W to walk toward the opening, then release it and stop.
+
+136
+00:07:17,805 --> 00:07:19,985
+Move the mouse to look at both landmarks.
+
+137
+00:07:20,084 --> 00:07:21,829
+Walk again while turning the view.
+
+138
+00:07:21,919 --> 00:07:24,560
+Check three things: can you approach the tree,
+
+139
+00:07:24,607 --> 00:07:27,909
+can you pass through the gap, and can you tell where to go next?
+
+140
+00:07:28,063 --> 00:07:30,864
+A high editor view makes distances look different.
+
+141
+00:07:31,072 --> 00:07:34,535
+Walking the route gives you a better basis for deciding what to
+change.
+
+142
+00:07:34,699 --> 00:07:39,409
+To return, press Escape for the Test Play controls and choose
+Abandon Challenge.
+
+143
+00:07:39,478 --> 00:07:41,329
+The result may say Incomplete.
+
+144
+00:07:41,483 --> 00:07:43,767
+Choose Exit to return to the editor.
+
+145
+00:07:43,968 --> 00:07:46,673
+The guide calls this a non-standard test result.
+
+146
+00:07:46,784 --> 00:07:49,233
+We're checking scenery, so that's expected here.
+
+147
+00:07:49,302 --> 00:07:53,056
+Make one change if needed, Quick Save, and test its effect again.
+
+148
+00:07:53,187 --> 00:07:56,660
+You can tell the camera view from an object's Transform settings.
+
+149
+00:07:56,856 --> 00:08:01,524
+Your tree and rock have deliberate positions, directions, and
+sizes.
+
+150
+00:08:01,720 --> 00:08:03,859
+You've saved and walked through the scene.
+
+151
+00:08:04,001 --> 00:08:08,020
+If a part is unclear, repeat that chapter with this same small
+scene.
+
+152
+00:08:08,353 --> 00:08:09,799
+Keep this lesson save.
+
+153
+00:08:09,974 --> 00:08:13,511
+In Episode Two, we'll build a woodland landscape with a path,
+
+154
+00:08:13,558 --> 00:08:15,568
+a focal point, and depth.
+
+155
+00:08:15,709 --> 00:08:17,496
+Official guide pages are linked in the
+
+156
+00:08:17,501 --> 00:08:20,161
+description whenever you want to revisit a module.

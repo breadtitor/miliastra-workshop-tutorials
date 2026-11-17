@@ -1,0 +1,146 @@
+[
+  {
+    "file": "Guide/01_copy.jpg",
+    "timeline_seconds": 50.266666666666666,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "940793aa806a350c48ef8dbd4180f84801c23046d2ac6b58158ac1083e346909"
+  },
+  {
+    "file": "Guide/02_library.jpg",
+    "timeline_seconds": 75.26666666666667,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "c2a4b72676a1a02f4707df17405688ead33a65299ae6e59bfd2b97a466b499b7"
+  },
+  {
+    "file": "Guide/03_modules.jpg",
+    "timeline_seconds": 91.9,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "e72db41198fb61b44c94ecf7205a655587283c2a33960759430f58e44f8002a7"
+  },
+  {
+    "file": "Guide/04_shape.jpg",
+    "timeline_seconds": 110.86666666666666,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "67bf85eea7b237157a5fdc407f6bdabd935d3020bf8b26423dda754a159fef35"
+  },
+  {
+    "file": "Guide/05_owner.jpg",
+    "timeline_seconds": 129.0,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "7c24e47271f5b265ccfb388e3c1f29e94206d111c6938d5136ae9684a35eb5b1"
+  },
+  {
+    "file": "Guide/06_style.jpg",
+    "timeline_seconds": 140.8,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "f98fdd15831efaacffb9da53cbe78867db51e53edfca335e703c3ff16917de82"
+  },
+  {
+    "file": "Guide/07_style_format.jpg",
+    "timeline_seconds": 152.96666666666667,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "55a2b7686fd0a5230f385ed7dbfcb3815357070e4aa7ca9c061128bcd6db9bdc"
+  },
+  {
+    "file": "Guide/08_preview.jpg",
+    "timeline_seconds": 168.4,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "6fd8ed644ed523088de74edd433a9a4e34c4bfecdfbab710541282d62913d109"
+  },
+  {
+    "file": "Guide/09_make_template.jpg",
+    "timeline_seconds": 188.36666666666667,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "4237cc28eb6a92b6d78019523211c842782c78f35717fb9652d2ff5d556e6fd3"
+  },
+  {
+    "file": "Guide/10_range_variables.jpg",
+    "timeline_seconds": 227.36666666666667,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "9066bd8cb350884f59d3a409dc298866e4e487770988797ae600527f852ed385"
+  },
+  {
+    "file": "Guide/11_range.jpg",
+    "timeline_seconds": 260.3666666666667,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "d378063c8245e781e4bd7f64a996255e347516c261dcbd1c41831e9b21d66892"
+  },
+  {
+    "file": "Guide/12_meaning.jpg",
+    "timeline_seconds": 277.6,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "d28e5220d204e399b0d8a4ff721a8b2c83667930dc8bb5f56e9df9dea6fa9ca8"
+  },
+  {
+    "file": "Guide/13_readability.jpg",
+    "timeline_seconds": 296.93333333333334,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "3898399af9289a27ec30e0c37d6edf3587df7f26ba7c7d50b17bf0084df5c7b1"
+  },
+  {
+    "file": "Guide/14_save_template.jpg",
+    "timeline_seconds": 317.06666666666666,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "fb50d718d8ae97b8451d49e09d08ba2cf1148bbcccdbe51a7a61f24689ea8b2f"
+  },
+  {
+    "file": "Guide/15_layout.jpg",
+    "timeline_seconds": 340.06666666666666,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "de19b734b2c640189ce177025d24ffe4d9f3741df076ace1ce440e3812ced0ee"
+  },
+  {
+    "file": "Guide/16_class.jpg",
+    "timeline_seconds": 373.06666666666666,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "aba1e9c0ace129baa4b069fc103937df7df6ab4d8f6d96ae44c3c731f2a5aa7d"
+  },
+  {
+    "file": "Guide/17_save_test.jpg",
+    "timeline_seconds": 403.06666666666666,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "1f84b492ded61e53a1e93683837e006165c2d84858f45771190f4b0d4300396f"
+  },
+  {
+    "file": "Guide/18_empty.jpg",
+    "timeline_seconds": 422.4,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "ee7e6976694962fb3af6b23b747718a5e5fe66f44129301dee26fba6076ec6ab"
+  },
+  {
+    "file": "Guide/19_first_coin.jpg",
+    "timeline_seconds": 442.43333333333334,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "9146748b93a40d077724d5af5eb6398d972cfd7818e803fbcdeb34ac99d15bb8"
+  },
+  {
+    "file": "Guide/20_all_five.jpg",
+    "timeline_seconds": 475.43333333333334,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "0c578338f8b06e5ee96f7d34c7d37b7dfac8ce150c0baa0e5544ef01582abb01"
+  },
+  {
+    "file": "Guide/21_retry.jpg",
+    "timeline_seconds": 494.43333333333334,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "384b92d7c48c59d80a5e683df1791759bab33fdc4af8666b9b72fe71c51ddc38"
+  },
+  {
+    "file": "Guide/22_missing.jpg",
+    "timeline_seconds": 510.7,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "5e44ac0067168a300153f695fdc69d0d94a53f1a5fe5acfadc7b6511b6e80df9"
+  },
+  {
+    "file": "Guide/23_wrong_value.jpg",
+    "timeline_seconds": 529.2333333333333,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "7888f174425113f1461da109c5676813826365dc98f99afd9e6c19b6ad2e5405"
+  },
+  {
+    "file": "Guide/24_checkpoint.jpg",
+    "timeline_seconds": 549.1333333333333,
+    "source": "Finished lesson picture; original native capture and teaching overlay.",
+    "sha256": "02d5ba7a309cbb81a9f86d7c85eff021d18a3a1aa3ca3aa91172cfbf890fbb01"
+  }
+]

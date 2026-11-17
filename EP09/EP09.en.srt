@@ -1,0 +1,455 @@
+1
+00:00:00,256 --> 00:00:04,617
+Here is our small arch in Blender, and here it is inside the
+woodland.
+
+2
+00:00:04,779 --> 00:00:09,818
+We can walk up to it and look around its sides. This advanced
+lesson follows the files between
+
+3
+00:00:09,851 --> 00:00:15,133
+those two views, using eight simple boxes and a native asset
+import that we've checked in the game.
+
+4
+00:00:20,862 --> 00:00:27,151
+We'll open the supplied starter, change one useful dimension,
+export a box list and convert it into a native
+
+5
+00:00:27,176 --> 00:00:32,936
+asset file. Then we'll import into an empty practice scene before
+adding it to a copy of our woodland.
+
+6
+00:00:33,046 --> 00:00:36,056
+Keep the restored challenge from the previous lesson available.
+
+7
+00:00:36,937 --> 00:00:40,872
+This route recreates explicit boxes as native game objects.
+
+8
+00:00:40,991 --> 00:00:43,764
+It isn't a general importer for every Blender mesh.
+
+9
+00:00:43,916 --> 00:00:49,664
+The supplied helper checks for simple box geometry, positive
+dimensions and zero object rotation.
+
+10
+00:00:49,847 --> 00:00:55,616
+Textures, rigs, animation and arbitrary F B X models are outside
+this example.
+
+11
+00:00:55,777 --> 00:00:58,236
+Start with this supported shape before adapting it.
+
+12
+00:00:58,929 --> 00:01:04,933
+A blend file is the editable Blender project. Our JSON file lists
+the boxes, positions,
+
+13
+00:01:05,030 --> 00:01:10,637
+sizes and colours. The converter writes a G I A file that the game
+can import as assets.
+
+14
+00:01:10,662 --> 00:01:13,917
+Renaming a blend file doesn't perform that conversion.
+
+15
+00:01:14,039 --> 00:01:18,329
+Keep these three stages distinct so you know which file each
+application needs.
+
+16
+00:01:19,052 --> 00:01:24,522
+In Blender, use File, Open, and choose Woodland Arch Start from
+the resources.
+
+17
+00:01:24,684 --> 00:01:31,582
+The recorded version is Blender four point two L T S. In the
+Outliner, find the Miliastra Boxes collection.
+
+18
+00:01:31,658 --> 00:01:38,935
+It contains two feet, two posts, two caps, a beam and a plaque.
+Those eight objects make the complete prop.
+
+19
+00:01:39,652 --> 00:01:45,296
+Stay in Object Mode. Select the object named E P zero nine Beam in
+the Outliner,
+
+20
+00:01:45,351 --> 00:01:50,971
+then inspect its Transform values. The sidebar's Dimensions
+describe the object's bounding size.
+
+21
+00:01:51,025 --> 00:01:54,499
+Location sets its position, while Scale is a multiplier.
+
+22
+00:01:54,584 --> 00:01:59,542
+Read the selected object's name before editing, so the dimension
+change affects the beam.
+
+23
+00:02:00,323 --> 00:02:05,986
+Change the beam's X dimension from four point four to four point
+eight, then look at the front view.
+
+24
+00:02:06,126 --> 00:02:12,065
+The crosspiece becomes a little wider while the posts stay where
+they were. This is an example design choice.
+
+25
+00:02:12,139 --> 00:02:17,667
+Your useful check is that the beam still spans both posts and the
+change appears on the intended object.
+
+26
+00:02:19,380 --> 00:02:24,137
+For this helper, keep each object's rotation at zero and its
+dimensions positive.
+
+27
+00:02:24,352 --> 00:02:29,289
+Leave the box meshes centred on their object origins, without
+parenting or modifiers.
+
+28
+00:02:29,387 --> 00:02:34,887
+The exporter reads the resulting dimensions directly, so this
+lesson doesn't require an Apply Scale step.
+
+29
+00:02:34,992 --> 00:02:38,912
+A bevel or a rotated mesh would require a different conversion
+design.
+
+30
+00:02:39,818 --> 00:02:44,094
+Use File, Save As, and give your edited project a new name.
+
+31
+00:02:44,213 --> 00:02:48,178
+We keep Woodland Arch Start and Woodland Arch Final as separate
+files.
+
+32
+00:02:48,328 --> 00:02:52,782
+Save the Blender project before making the external export. That
+preserves an editable
+
+33
+00:02:52,807 --> 00:02:57,733
+model you can return to, instead of relying on a generated asset
+file as your only copy.
+
+34
+00:02:58,448 --> 00:03:04,900
+Open the Scripting workspace and select the embedded text named
+Export Miliastra Boxes dot P Y.
+
+35
+00:03:04,976 --> 00:03:09,337
+Review the supplied source, then use the Text Editor's Run Script
+button.
+
+36
+00:03:09,456 --> 00:03:14,496
+This registers our session's export menu. The shown closeup is a
+read-only reference.
+
+37
+00:03:14,636 --> 00:03:19,656
+Reopening Blender may require running the helper again; we haven't
+installed it as a permanent add-on.
+
+38
+00:03:20,309 --> 00:03:24,889
+Return to File, Export, and choose Miliastra Boxes, JSON.
+
+39
+00:03:27,300 --> 00:03:31,298
+Choose a new filename and read the Game Origin fields before
+exporting.
+
+40
+00:03:31,438 --> 00:03:34,613
+Our resources contain the exact exported lists.
+
+41
+00:03:34,638 --> 00:03:40,672
+The file browser is shown only through necessary field crops,
+keeping unrelated folders outside the lesson.
+
+42
+00:03:40,757 --> 00:03:45,094
+This export describes eight supported boxes; it doesn't write the
+game asset yet.
+
+43
+00:03:45,742 --> 00:03:51,246
+Blender uses Z for the vertical direction here. Our game placement
+list uses Y for up.
+
+44
+00:03:51,400 --> 00:03:56,976
+The helper maps Blender X, Y, Z into game X, Z, negative Y,
+
+45
+00:03:57,074 --> 00:04:02,838
+then adds the Game Origin offset. It also reorders the dimensions.
+This is why copying three
+
+46
+00:04:02,862 --> 00:04:07,838
+position numbers directly between the applications can turn a
+sensible prop the wrong way.
+
+47
+00:04:08,623 --> 00:04:14,094
+Game Origin moves the whole exported arrangement without changing
+the distances between its boxes.
+
+48
+00:04:14,170 --> 00:04:21,214
+We first used eight, zero, sixteen in an empty scene. In the
+woodland, that position overlapped a tree.
+
+49
+00:04:21,239 --> 00:04:27,542
+We exported a separate placement at sixteen, zero, sixteen and
+imported it into a fresh copy.
+
+50
+00:04:27,682 --> 00:04:31,510
+Choose clear space in your own layout; these coordinates are
+examples.
+
+51
+00:04:32,225 --> 00:04:37,397
+The companion Primitive Kit contains the conversion source, its
+box template and license.
+
+52
+00:04:37,473 --> 00:04:43,405
+It uses Python outside the game. Open a terminal in that kit's
+folder, create the shown local virtual
+
+53
+00:04:43,430 --> 00:04:48,659
+environment and install the pinned requirement. This keeps the
+helper's package in its own folder.
+
+54
+00:04:48,748 --> 00:04:54,518
+Our fresh environment check used Python three point fourteen and
+protobuf six point thirty-three point six.
+
+55
+00:04:55,280 --> 00:05:01,101
+Use the environment's Python to run convert boxes dot P Y,
+followed by your input JSON and a new
+
+56
+00:05:01,126 --> 00:05:06,996
+output G I A filename. The command reference uses relative paths
+you can copy from the guide.
+
+57
+00:05:07,115 --> 00:05:12,074
+Run it from the Primitive Kit folder, where the source modules and
+Template folder are available.
+
+58
+00:05:12,278 --> 00:05:15,650
+Choose a fresh output name because existing files are preserved.
+
+59
+00:05:16,405 --> 00:05:21,726
+The converter reports eight primitives and reads back their names,
+transforms and colours.
+
+60
+00:05:21,823 --> 00:05:24,542
+That helps catch a broken file before opening the game.
+
+61
+00:05:24,597 --> 00:05:28,564
+A successful structural check still doesn't show what the prop
+looks like in a scene.
+
+62
+00:05:28,628 --> 00:05:33,998
+Keep the output beside its readback report, then move on to the
+native import and appearance check.
+
+63
+00:05:34,809 --> 00:05:41,653
+On Local Save, create a separate practice save using the same
+Beyond Mode workflow. Open it and Quick Save.
+
+64
+00:05:41,779 --> 00:05:47,378
+This empty scene makes a missing box, flipped direction or
+unexpected size easier to notice.
+
+65
+00:05:47,582 --> 00:05:52,456
+It also gives us a clear place to learn the import controls before
+changing our completed woodland.
+
+66
+00:05:53,143 --> 00:05:56,736
+Open System Menu, then Manage Asset Import Export.
+
+67
+00:05:56,812 --> 00:06:02,026
+Use the Import and Transfer tab and Load External Assets to choose
+the generated G I A.
+
+68
+00:06:02,102 --> 00:06:08,545
+The operating-system file chooser stays outside the captured view.
+When the asset pack appears, read its name.
+
+69
+00:06:08,727 --> 00:06:14,106
+This is an asset import; it isn't the whole-save Import Save
+command from the previous lesson.
+
+70
+00:06:16,223 --> 00:06:21,352
+Select the intended pack and use the transfer control. Read the
+native confirmation,
+
+71
+00:06:21,428 --> 00:06:26,230
+including its undo-history notice, before confirming this change
+in your fresh sandbox.
+
+72
+00:06:26,255 --> 00:06:32,729
+After transfer, the Assets Exporting, Entity view lists all eight
+E P zero nine objects.
+
+73
+00:06:32,783 --> 00:06:37,543
+A transfer message and eight names are useful checks, but we still
+need to see the model.
+
+74
+00:06:38,252 --> 00:06:44,462
+Start a private test. Find the arch, walk closer and turn the
+camera to inspect its front and side.
+
+75
+00:06:44,666 --> 00:06:49,774
+We can see both teal posts, the pale feet and crosspiece, and the
+coloured plaque.
+
+76
+00:06:49,957 --> 00:06:54,137
+Compare those relationships with Blender. This checks this prop's
+actual appearance
+
+77
+00:06:54,162 --> 00:06:58,385
+and orientation, without claiming every Blender model follows the
+same route.
+
+78
+00:07:03,237 --> 00:07:06,035
+Copy the restored woodland into a new lesson card.
+
+79
+00:07:06,126 --> 00:07:11,832
+Import the separate Placed asset file through the same asset
+controls. In this final copy,
+
+80
+00:07:11,886 --> 00:07:17,818
+the arch sits clear of the tree while the path, pavilion, coins
+and interface remain visible.
+
+81
+00:07:17,970 --> 00:07:23,014
+We leave the earlier overlapping attempt available and use the
+clean placement for our final walk.
+
+82
+00:07:23,780 --> 00:07:28,248
+Walk toward the arch and turn to see its thickness and the space
+around its posts.
+
+83
+00:07:28,345 --> 00:07:32,575
+Keep the view at normal speed. This example's exported boxes are
+decorative,
+
+84
+00:07:32,629 --> 00:07:36,031
+with collision and climbing disabled in the conversion settings.
+
+85
+00:07:36,256 --> 00:07:40,923
+Don't treat the prop as a working platform without designing and
+testing that behaviour separately.
+
+86
+00:07:41,050 --> 00:07:44,136
+We don't start the timed challenge during this placement check.
+
+87
+00:07:45,723 --> 00:07:49,538
+Save the final scene and keep the starter blend, edited blend,
+
+88
+00:07:49,563 --> 00:07:53,765
+exported JSON, generated asset and conversion source together.
+
+89
+00:07:53,852 --> 00:08:00,026
+The resources identify the files actually imported in these checks
+and include a final whole-save export.
+
+90
+00:08:00,124 --> 00:08:03,603
+That final whole-save file hasn't been separately reimported.
+
+91
+00:08:03,694 --> 00:08:07,656
+The native appearance evidence belongs to the asset imports we've
+just shown.
+
+92
+00:08:08,398 --> 00:08:12,938
+You now have a woodland scene, recoverable save files, native coin
+logic,
+
+93
+00:08:12,962 --> 00:08:18,996
+a live progress bar, a timed result, achievements and one
+supported Blender prop workflow.
+
+94
+00:08:19,080 --> 00:08:24,251
+Try one small change of your own, then check its effect in private
+play. Keep the previous
+
+95
+00:08:24,285 --> 00:08:29,096
+working version available, and use the guide's official references
+when you meet a new module.

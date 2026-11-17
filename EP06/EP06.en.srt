@@ -1,0 +1,516 @@
+1
+00:00:00,256 --> 00:00:04,596
+Five coins, two minutes, and a result when the clock reaches zero.
+
+2
+00:00:04,779 --> 00:00:09,918
+Our woodland now ends in Victory with five coins, or Failed when
+the goal is missed.
+
+3
+00:00:09,962 --> 00:00:15,674
+We'll build the start, countdown, pickup rule and settlement with
+native controls and node graphs.
+
+4
+00:00:23,199 --> 00:00:28,736
+We'll define a Global Timer, show it in the interface, and connect
+a Start button to a Player graph.
+
+5
+00:00:28,879 --> 00:00:33,176
+Then we'll allow pickups only during the run and choose the result
+at zero.
+
+6
+00:00:33,487 --> 00:00:38,727
+Keep the working progress-bar lesson open as a separate copy, so
+we can build on its tested counter.
+
+7
+00:00:39,538 --> 00:00:45,073
+The Global Timer has a definition, an entity that runs it, and an
+optional interface display.
+
+8
+00:00:45,213 --> 00:00:47,932
+Timer Management defines its name and duration.
+
+9
+00:00:48,072 --> 00:00:52,696
+Our Player carries the running timer. The Timer control shows that
+Player's time.
+
+10
+00:00:52,780 --> 00:00:58,008
+Keeping those three roles connected prevents a countdown on one
+entity and a display reading another.
+
+11
+00:00:58,718 --> 00:01:04,798
+Open the System Menu and choose Timer Management. Add a new timer,
+then rename it Round Timer.
+
+12
+00:01:04,887 --> 00:01:08,864
+Choose Countdown and set Duration to one hundred and twenty
+seconds.
+
+13
+00:01:09,111 --> 00:01:11,574
+This name is the reference we'll use in the graph.
+
+14
+00:01:11,756 --> 00:01:15,639
+Check the spelling, and keep this timer distinct from any others
+in your save.
+
+15
+00:01:28,737 --> 00:01:32,117
+In Manage UI Control Groups, open Default Layout.
+
+16
+00:01:32,151 --> 00:01:38,560
+Choose Add UI control, then Prefabricated Template, then Timer.
+Open its Functions settings.
+
+17
+00:01:38,679 --> 00:01:44,168
+Change Type to Countdown and choose Round Timer. This filters the
+list to the matching timer type.
+
+18
+00:01:44,201 --> 00:01:47,652
+Leave room around the existing coin bar and original game
+controls.
+
+19
+00:01:58,732 --> 00:02:04,746
+Change Source Entity from Stage to Player Themself. Our controller
+will start the timer on that Player.
+
+20
+00:02:04,811 --> 00:02:10,538
+The official Global Timer guide explains that an inactive timer
+displays zero minutes and zero seconds.
+
+21
+00:02:10,742 --> 00:02:14,271
+That initial display doesn't mean a fresh two-minute run has
+already ended.
+
+22
+00:02:14,326 --> 00:02:16,632
+It can mean the timer hasn't been activated yet.
+
+23
+00:02:17,284 --> 00:02:21,795
+Open Default Player through Edit Player and inspect its Global
+Timer component.
+
+24
+00:02:21,892 --> 00:02:27,756
+In this save, it is present, with an empty reference list. Leave
+Round Timer out of that list.
+
+25
+00:02:27,885 --> 00:02:32,076
+A component reference activates a Global Timer when the entity is
+created.
+
+26
+00:02:32,322 --> 00:02:36,118
+We want the graph to activate it after the player requests Start.
+
+27
+00:02:40,389 --> 00:02:46,692
+Back in Default Layout, add a Custom Button and label it Start.
+Set Key Type to Interactive Event.
+
+28
+00:02:46,789 --> 00:02:52,729
+For this PC lesson, map it to F, shown as Pick Up or Interact in
+the keyboard-and-mouse selector.
+
+29
+00:02:52,890 --> 00:02:58,273
+This is the stage control's mapping. Consider other interactions
+if you use that key in your own game.
+
+30
+00:03:08,361 --> 00:03:13,975
+Select the Start instance and note its Index. We'll compare the
+interaction event against that value.
+
+31
+00:03:14,108 --> 00:03:20,091
+Use the Index on your own layout instance, rather than copying my
+generated number or a template's number.
+
+32
+00:03:20,252 --> 00:03:24,506
+If the button is replaced later, read its new Index and update the
+comparison.
+
+33
+00:03:25,301 --> 00:03:32,307
+Add two predefined standard Boolean variables to Default Player:
+RoundStarted and RoundActive, both No.
+
+34
+00:03:32,469 --> 00:03:36,889
+RoundStarted remembers that this challenge instance has accepted a
+start request.
+
+35
+00:03:37,066 --> 00:03:41,385
+RoundActive says whether pickups are currently allowed. They have
+different jobs.
+
+36
+00:03:41,546 --> 00:03:46,894
+At the end we'll turn Active off while Started stays Yes, so
+another press can't restart this run.
+
+37
+00:03:49,202 --> 00:03:54,118
+Create a Server Entity Node Graph called EP06 Round Controller.
+
+38
+00:03:54,151 --> 00:03:58,811
+Mount it on Default Player through Edit Player and its Node Graph
+tab, then save.
+
+39
+00:03:58,972 --> 00:04:02,594
+The UI interaction event is received by the Player's node graph.
+
+40
+00:04:02,740 --> 00:04:07,092
+This controller belongs on the Player, rather than on a scenery
+object or a coin.
+
+41
+00:04:12,238 --> 00:04:16,642
+Add When UI Control Group Is Triggered. For a small first test,
+
+42
+00:04:16,718 --> 00:04:22,498
+convert its UI Control Group Index to String and print it. Select
+the controller in the native Log,
+
+43
+00:04:22,532 --> 00:04:27,576
+then press Start during a private test. Our printed value matches
+the Start instance.
+
+44
+00:04:27,737 --> 00:04:31,226
+This checks the event and mounting before adding the full start
+chain.
+
+45
+00:04:37,061 --> 00:04:40,577
+In the working controller, compare the event's UI Control Group
+
+46
+00:04:40,602 --> 00:04:44,473
+Index with the Start instance Index using an Integer comparison.
+
+47
+00:04:44,655 --> 00:04:50,359
+Feed that result into Double Branch and continue from Yes. Other
+interface interactions should stop here.
+
+48
+00:04:50,392 --> 00:04:55,877
+Use Get Self Entity for this graph's Player, and keep that target
+consistent through the start actions.
+
+49
+00:04:58,094 --> 00:05:02,126
+Read Self's RoundStarted as Boolean and add another Double Branch.
+
+50
+00:05:02,256 --> 00:05:07,833
+Continue only from No. Set RoundStarted to Yes, then set
+RoundActive to Yes.
+
+51
+00:05:07,973 --> 00:05:14,112
+These are execution steps, connected in that order. The first flag
+closes further start requests;
+
+52
+00:05:14,145 --> 00:05:17,821
+the second opens the existing pickup rule for the running
+challenge.
+
+53
+00:05:18,666 --> 00:05:24,200
+Continue to Start Global Timer, target Self, and enter Round Timer
+as the Timer Name.
+
+54
+00:05:24,340 --> 00:05:28,659
+Finish this small chain with Print String, using round started as
+its message.
+
+55
+00:05:28,820 --> 00:05:32,961
+Save the graph and scene. We're starting the predefined Global
+Timer here,
+
+56
+00:05:32,994 --> 00:05:36,559
+so choose that node rather than the separate interval-based Start
+Timer system.
+
+57
+00:05:37,252 --> 00:05:41,219
+Open the pickup graph. Resolve the entering character to its
+Player as before.
+
+58
+00:05:41,412 --> 00:05:46,712
+Read that Player's RoundActive Boolean and place a Double Branch
+before the existing PickedUp check.
+
+59
+00:05:46,831 --> 00:05:52,096
+Connect the event's execution to this new branch. Yes continues to
+the original pickup chain;
+
+60
+00:05:52,121 --> 00:05:57,413
+No has no award or destruction path. Remove the old execution
+bypass.
+
+61
+00:06:00,295 --> 00:06:05,091
+Return to the Player controller and add When Global Timer Is
+Triggered. Compare its Timer
+
+62
+00:06:05,116 --> 00:06:10,809
+Name with Round Timer, then continue only from Yes. This event is
+the countdown reaching zero.
+
+63
+00:06:10,979 --> 00:06:16,037
+The name check keeps our result chain specific if another Global
+Timer is added to the project later.
+
+64
+00:06:16,828 --> 00:06:23,310
+Read Self's RoundActive and branch again. Continue only if it is
+Yes, then set RoundActive to No.
+
+65
+00:06:23,416 --> 00:06:28,724
+Close the run before the settlement actions. After this step, the
+coin graph's new gate no
+
+66
+00:06:28,749 --> 00:06:34,210
+longer allows awards. The controller can now read the final count
+and choose one result path.
+
+67
+00:06:34,904 --> 00:06:40,139
+Read Self's Coins and CoinGoal as Integers. Compare Coins greater
+than or equal
+
+68
+00:06:40,164 --> 00:06:44,909
+to CoinGoal and feed the Boolean result into Double Branch. Our
+goal is five.
+
+69
+00:06:45,028 --> 00:06:49,999
+Reusing the goal from the progress bar keeps its full value and
+the challenge rule aligned.
+
+70
+00:06:50,130 --> 00:06:54,135
+We don't need a particular tree position or a pavilion trigger for
+this objective.
+
+71
+00:06:54,942 --> 00:06:59,879
+On Yes, use Set Player Settlement Success Status for Self and
+choose Victory.
+
+72
+00:06:59,977 --> 00:07:03,170
+On No, use the same node with the failure option.
+
+73
+00:07:03,358 --> 00:07:08,360
+The client in this recording labels it Failed. Keep these
+execution paths separate.
+
+74
+00:07:08,521 --> 00:07:13,075
+Only the selected branch should run, and each branch will prepare
+its own settlement data.
+
+75
+00:07:19,865 --> 00:07:24,823
+After the status node on each path, add Set Player Settlement
+Scoreboard Data Display.
+
+76
+00:07:24,856 --> 00:07:30,378
+Target Self, use data order one, enter Coins as the name, and
+supply a fresh read of
+
+77
+00:07:30,403 --> 00:07:35,288
+the Player's current Coins value. That is the score we want the
+result card to display.
+
+78
+00:07:35,364 --> 00:07:38,436
+The HUD binding alone doesn't create this settlement entry.
+
+79
+00:07:39,138 --> 00:07:45,207
+Continue each selected path to Settle Stage. Setting a success
+status and score prepares the information;
+
+80
+00:07:45,262 --> 00:07:48,407
+this final action starts the stage settlement process.
+
+81
+00:07:48,675 --> 00:07:53,627
+Save both the graph and editing scene. Read the end chain once:
+correct timer,
+
+82
+00:07:53,652 --> 00:07:59,713
+active run, close pickups, compare goal, set status and score,
+then settle.
+
+83
+00:08:00,489 --> 00:08:03,592
+Start a fresh private test and leave Start untouched.
+
+84
+00:08:03,732 --> 00:08:08,485
+The coin bar is empty and the timer is inactive at zero. Walk
+through the first coin.
+
+85
+00:08:08,510 --> 00:08:13,045
+In our test it remains, with the counter still at zero. This
+checks that the new gate
+
+86
+00:08:13,070 --> 00:08:17,573
+is connected before the old award chain, rather than sitting
+beside a working bypass.
+
+87
+00:08:18,461 --> 00:08:23,258
+Return to the starting area and press F. The timer begins its
+two-minute countdown,
+
+88
+00:08:23,283 --> 00:08:28,985
+and coins can now be collected. In a separate start check, I press
+F again while the clock is running.
+
+89
+00:08:29,061 --> 00:08:32,526
+It continues counting down instead of jumping back to two minutes.
+
+90
+00:08:32,816 --> 00:08:35,931
+RoundStarted is what protects that accepted start path.
+
+91
+00:08:39,437 --> 00:08:43,606
+In the winning run, collect all five coins and watch the bar fill.
+
+92
+00:08:43,832 --> 00:08:49,857
+Then let the full countdown reach zero naturally. The original
+recording keeps the entire wait;
+
+93
+00:08:49,976 --> 00:08:52,810
+this lesson cuts to later moments in the same run.
+
+94
+00:08:52,937 --> 00:08:57,128
+The result is Victory, and the settlement card shows Coins, five.
+
+95
+00:09:03,489 --> 00:09:09,480
+Choose Retry Challenge. Check the coins, the empty bar and the
+inactive timer before starting again.
+
+96
+00:09:09,505 --> 00:09:16,786
+Our new instance has zero Coins and no active countdown. Pressing
+F begins a new run. Checking this starting
+
+97
+00:09:16,811 --> 00:09:22,973
+state matters, because a correct first run can still hide an
+incorrect retry or initialization path.
+
+98
+00:09:23,755 --> 00:09:28,756
+This time, leave the coins alone and wait through another complete
+two-minute countdown.
+
+99
+00:09:28,832 --> 00:09:32,724
+At zero, the result is Failed, with Coins, zero.
+
+100
+00:09:32,928 --> 00:09:37,230
+The waiting is shortened in the edit again. A winning test checks
+one branch;
+
+101
+00:09:37,349 --> 00:09:42,177
+this second natural run checks the other result using the same
+timer and settlement rule.
+
+102
+00:09:45,686 --> 00:09:50,055
+If the clock stays at zero, check the timer definition, the Player
+component,
+
+103
+00:09:50,080 --> 00:09:53,460
+the UI's Player source, and the Start event in that order.
+
+104
+00:09:53,621 --> 00:09:59,600
+If it starts too soon, inspect the component's timer references.
+If pickups happen before Start,
+
+105
+00:09:59,697 --> 00:10:03,913
+follow the event's white execution line and look for a route
+around RoundActive.
+
+106
+00:10:04,738 --> 00:10:11,062
+Before moving on, test an untouched coin before Start, a repeated
+start request, a natural success,
+
+107
+00:10:11,138 --> 00:10:16,482
+a retry, and a natural failure. Point to the two different flags
+and explain their jobs.
+
+108
+00:10:16,514 --> 00:10:22,378
+Keep your working copy. We now have a complete timed loop that can
+drive meaningful achievements next time.

@@ -1,0 +1,505 @@
+1
+00:00:00,213 --> 00:00:05,940
+Walk into a coin, and it disappears. In the log, the player's
+count increases by one.
+
+2
+00:00:06,101 --> 00:00:11,791
+We'll build that interaction with native node graphs, then use
+five copies along our woodland trail.
+
+3
+00:00:11,816 --> 00:00:15,921
+Before adding a progress bar, let's make sure the number
+underneath it is right.
+
+4
+00:00:21,680 --> 00:00:25,593
+We'll place a coin and give it a detection area, create the data
+it needs,
+
+5
+00:00:25,690 --> 00:00:31,102
+connect the pickup graph, and test it in play. The finished
+example counts from one to five.
+
+6
+00:00:31,221 --> 00:00:36,066
+We'll also walk over a collected coin's old position and check
+what happens when we retry.
+
+7
+00:00:36,861 --> 00:00:41,441
+Start with a separate copy of the complete woodland. Keep the
+previous lesson available.
+
+8
+00:00:41,608 --> 00:00:46,396
+For the first few setup steps, I'm using a separate demonstration
+copy with the same scenery.
+
+9
+00:00:46,472 --> 00:00:48,807
+Then we'll return to the lesson's pickup graph.
+
+10
+00:00:48,947 --> 00:00:52,708
+The finished lesson save and starter graph are included with the
+companion files.
+
+11
+00:00:53,477 --> 00:01:00,334
+In Place, expand Dynamic Units and open the gameplay category.
+Search for coin and choose Adventure Coin.
+
+12
+00:01:00,431 --> 00:01:03,969
+This is different from the Static Units we used for trees and
+stones.
+
+13
+00:01:04,159 --> 00:01:07,859
+We need an entity that can carry components and a node graph.
+
+14
+00:01:07,999 --> 00:01:10,943
+A gold model alone doesn't define our counting rule.
+
+15
+00:01:11,595 --> 00:01:17,035
+Place it above the trail and select its instance. Use Location to
+put it where the character can reach it.
+
+16
+00:01:17,123 --> 00:01:22,295
+My coordinates are one example. Check the visible coin rather than
+copying numbers blindly.
+
+17
+00:01:22,413 --> 00:01:26,192
+We want the player to pass through its detection area while
+walking along the stones.
+
+18
+00:01:26,994 --> 00:01:32,972
+Open the selected coin's Components tab. Choose Add Common
+Component, then Collision Trigger.
+
+19
+00:01:33,027 --> 00:01:39,427
+Open Advanced Editing and use the plus button to add a trigger.
+This area detects another entity entering it.
+
+20
+00:01:39,494 --> 00:01:44,325
+It's separate from a physical collider that blocks movement, and
+it doesn't automatically award a point.
+
+21
+00:01:47,980 --> 00:01:53,898
+Keep Initially Effective on. For Effective Target, select
+Characters and clear Objects and Creations.
+
+22
+00:01:54,039 --> 00:01:57,545
+Choose Sphere. This example uses a radius of one.
+
+23
+00:01:57,685 --> 00:02:02,836
+That value controls the detection area around the coin; it isn't
+the coin model's size.
+
+24
+00:02:03,061 --> 00:02:07,400
+Keep the area centred on the coin and test whether the character
+actually reaches it.
+
+25
+00:02:10,931 --> 00:02:16,402
+We need a running total called Coins on the Player, and a Boolean
+called PickedUp on each coin.
+
+26
+00:02:16,478 --> 00:02:21,949
+The Player keeps the total as individual coins disappear. Each
+coin keeps its own collected flag.
+
+27
+00:02:22,068 --> 00:02:26,138
+Storing the total on the coin would be a problem when we destroy
+that entity.
+
+28
+00:02:26,923 --> 00:02:31,348
+Open Combat Preset, then Player, Player Template, and Default.
+
+29
+00:02:31,488 --> 00:02:38,391
+Choose Edit Player, rather than Edit Character. In Components,
+open Custom Variable and Advanced Editing.
+
+30
+00:02:38,416 --> 00:02:43,653
+On Standard Variable, choose Integer and add Coins with a default
+value of zero.
+
+31
+00:02:43,835 --> 00:02:46,831
+Keep the spelling and capital C consistent in the graph.
+
+32
+00:02:47,580 --> 00:02:50,588
+Coins is an Integer because we're counting whole items.
+
+33
+00:02:50,762 --> 00:02:55,742
+Defining it here also makes it available to the native interface
+binding we'll use next time.
+
+34
+00:02:55,839 --> 00:02:58,765
+We're using a standard variable for this challenge session.
+
+35
+00:02:58,941 --> 00:03:03,847
+We aren't setting up an account's permanent currency or an in-game
+save system in this lesson.
+
+36
+00:03:06,495 --> 00:03:11,411
+Return to the selected coin's Custom Variable component and open
+Advanced Editing.
+
+37
+00:03:11,487 --> 00:03:15,871
+Add PickedUp as Boolean, with the default set to No. No means
+false here;
+
+38
+00:03:15,896 --> 00:03:19,361
+Yes means true. A Boolean answers a two-way question.
+
+39
+00:03:19,480 --> 00:03:23,789
+In our graph, that question is whether this particular coin has
+already been collected.
+
+40
+00:03:35,538 --> 00:03:42,136
+On the coin's Node Graph tab, choose Add Node Graph. Open
+Miliastra Sandbox if you need to create one.
+
+41
+00:03:42,212 --> 00:03:46,232
+In Server Node Graph Resource Explorer, choose Entity Node Graph.
+
+42
+00:03:46,308 --> 00:03:51,530
+Right-click in the resource area and choose Create Node Graph.
+Give it a recognisable name.
+
+43
+00:03:51,657 --> 00:03:55,449
+This small creation demonstration is separate from the finished
+pickup graph.
+
+44
+00:04:10,566 --> 00:04:13,860
+In the graph editor, right-click to open the node library.
+
+45
+00:04:13,936 --> 00:04:18,249
+Add When Entering Collision Trigger and Print String. Connect the
+event's white
+
+46
+00:04:18,274 --> 00:04:23,894
+execution output to Print String's execution input, then enter
+coin entered as its text.
+
+47
+00:04:23,991 --> 00:04:29,142
+Save the graph. This small chain checks an event before we add the
+full pickup behaviour.
+
+48
+00:04:38,560 --> 00:04:44,286
+Back on the coin, use Add Node Graph to select the graph you
+created, then save the scene.
+
+49
+00:04:44,533 --> 00:04:48,852
+A graph in the resource explorer doesn't affect this coin until it
+is mounted here.
+
+50
+00:04:49,013 --> 00:04:53,931
+Check the name of your own graph. Its generated ID can differ from
+the number in my example.
+
+51
+00:04:54,742 --> 00:05:01,492
+Open Window, then Log in Miliastra Sandbox. Select the intended
+server entity graph and confirm the selection.
+
+52
+00:05:01,611 --> 00:05:06,946
+In a private test, move into the coin's sphere. Our minimal test
+prints coin entered.
+
+53
+00:05:07,043 --> 00:05:10,466
+This checks the trigger, mounting, and execution connection.
+
+54
+00:05:10,627 --> 00:05:14,050
+Printing a message doesn't collect the coin or change our counter
+yet.
+
+55
+00:05:14,889 --> 00:05:20,060
+Now return to the lesson's pickup graph. It begins with that same
+event and print test.
+
+56
+00:05:20,200 --> 00:05:26,386
+We'll replace the direct execution connection with a condition, a
+data update, a readback, and destruction.
+
+57
+00:05:26,580 --> 00:05:33,490
+Keep a simple test in mind as the graph grows: entering one
+uncollected coin should add exactly one.
+
+58
+00:05:34,299 --> 00:05:38,191
+The white execution line tells the graph which action runs next.
+
+59
+00:05:38,352 --> 00:05:41,519
+The round data pins carry values into those actions.
+
+60
+00:05:41,808 --> 00:05:47,081
+Connecting a data value doesn't, by itself, tell an action when to
+run. We'll use the event's
+
+61
+00:05:47,106 --> 00:05:51,842
+Entering Entity for the character, and Trigger Entity for the coin
+whose sphere was entered.
+
+62
+00:05:52,538 --> 00:05:58,893
+Add Get Player Entity to Which the Character Belongs. Connect
+Entering Entity to its Character Entity input.
+
+63
+00:05:58,958 --> 00:06:05,375
+Its output is the affiliated Player Entity. We'll use that Player
+as the target for Coins. The entering
+
+64
+00:06:05,400 --> 00:06:10,621
+character and its Player are related entities, but they aren't
+interchangeable targets for this counter.
+
+65
+00:06:11,385 --> 00:06:14,040
+Add Get Custom Variable for the Trigger Entity.
+
+66
+00:06:14,116 --> 00:06:18,221
+Enter PickedUp as the variable name and use Boolean for its value.
+
+67
+00:06:18,425 --> 00:06:24,223
+Feed that value into the Condition of Double Branch. Connect the
+event's execution output to the branch.
+
+68
+00:06:24,371 --> 00:06:29,000
+If PickedUp is Yes, we leave that path without an award. We'll
+continue from No.
+
+69
+00:06:30,316 --> 00:06:35,624
+From the No execution output, add Set Custom Variable. Target
+Trigger Entity,
+
+70
+00:06:35,649 --> 00:06:41,026
+use the name PickedUp, and set its Boolean value to Yes. Do this
+before increasing the total.
+
+71
+00:06:41,081 --> 00:06:45,542
+The flag records that this coin has been handled, while the rest
+of its pickup actions continue.
+
+72
+00:06:48,394 --> 00:06:54,446
+Add another Get Custom Variable, this time targeting the
+affiliated Player. Use Coins and Integer.
+
+73
+00:06:54,592 --> 00:07:00,284
+Connect its value to Addition, and set the other Integer input to
+one. This produces the next count.
+
+74
+00:07:00,309 --> 00:07:06,186
+A query supplies a value when the execution chain needs it; it
+isn't an extra execution step.
+
+75
+00:07:06,894 --> 00:07:10,678
+Continue the execution line to Set Custom Variable for the Player.
+
+76
+00:07:10,734 --> 00:07:14,476
+Enter Coins and use the Addition result as its Integer value.
+
+77
+00:07:14,658 --> 00:07:19,902
+Read the targets carefully: PickedUp belongs to the coin, while
+Coins belongs to the Player.
+
+78
+00:07:19,963 --> 00:07:23,826
+A correctly spelled name on the wrong entity would still be the
+wrong counter.
+
+79
+00:07:24,628 --> 00:07:30,302
+After writing Coins, use a separate Get Custom Variable to read
+the Player's current Coins value.
+
+80
+00:07:30,453 --> 00:07:36,116
+Pass it through Data Type Conversion with String as the output
+type, and connect that to Print String.
+
+81
+00:07:36,214 --> 00:07:41,664
+We read back the stored count here. Don't print the earlier
+addition again after changing the value it reads.
+
+82
+00:07:42,394 --> 00:07:47,886
+Continue the execution line from Print String to Destroy Entity,
+targeting Trigger Entity.
+
+83
+00:07:48,068 --> 00:07:51,528
+The visible coin should now disappear after its count is stored.
+
+84
+00:07:51,640 --> 00:07:56,450
+Check the chain from left to right: branch, mark PickedUp, write
+Coins,
+
+85
+00:07:56,590 --> 00:08:01,708
+print the stored value, then destroy that coin. Save the graph and
+the editing scene.
+
+86
+00:08:02,446 --> 00:08:06,180
+In a fresh private test, walk into the coin and stop.
+
+87
+00:08:10,383 --> 00:08:12,708
+It disappears, and the log shows one.
+
+88
+00:08:13,340 --> 00:08:19,086
+Walk back over its old position and check the log again. Our test
+still has one pickup message.
+
+89
+00:08:19,181 --> 00:08:22,462
+Now we can reuse this working coin along the rest of the trail.
+
+90
+00:08:24,475 --> 00:08:30,671
+Once the single coin works, return to the editor. Right-click the
+complete coin and choose Copy,
+
+91
+00:08:30,705 --> 00:08:35,928
+then right-click empty ground and Paste. Move the new instance
+before making another.
+
+92
+00:08:36,111 --> 00:08:40,899
+Check that it has its own PickedUp flag, initially No, and the
+same pickup graph.
+
+93
+00:08:41,017 --> 00:08:43,691
+Repeat until there are five coins along your route.
+
+94
+00:08:48,375 --> 00:08:53,557
+Save and start a fresh private test. Walk along the trail and
+collect the coins in order.
+
+95
+00:08:59,361 --> 00:09:05,992
+In this run, each coin disappears, and the same log records one,
+two, three, four,
+
+96
+00:09:06,017 --> 00:09:11,546
+and five. That visible sequence is more useful than assuming the
+copies work because they look alike.
+
+97
+00:09:15,447 --> 00:09:19,734
+Choose Retry Challenge and try the first coin again. The coins
+reappear.
+
+98
+00:09:24,383 --> 00:09:27,579
+After the new Stage Start, the next pickup prints one.
+
+99
+00:09:28,256 --> 00:09:32,510
+This checks the new session's starting value, rather than
+continuing from five.
+
+100
+00:09:32,736 --> 00:09:38,810
+If your counter carries over unexpectedly, check which variable
+type and reset path your own project is using.
+
+101
+00:09:39,588 --> 00:09:45,912
+Before moving on, point to the event, the coin's flag, the
+Player's total, and the final destruction step.
+
+102
+00:09:46,031 --> 00:09:52,938
+Explain why the two variables have different owners. Then collect
+one coin, revisit its position, and retry.
+
+103
+00:09:52,999 --> 00:09:58,399
+You should be able to recognise the intended result without
+matching my object coordinates or graph ID.
+
+104
+00:09:59,194 --> 00:10:04,203
+Keep the five-coin lesson save. In the next episode, we'll build a
+native progress bar
+
+105
+00:10:04,228 --> 00:10:09,542
+that reads this real Player variable. The counter is now tested
+underneath the interface,
+
+106
+00:10:09,618 --> 00:10:14,316
+so we can concentrate on showing its value clearly while the
+player moves through the woodland.

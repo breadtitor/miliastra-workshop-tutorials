@@ -1,0 +1,6 @@
+Course layout: adapted from Slidev Bricks by Inès (@iiiiiiines), using the MIT-licensed layout/type hierarchy code. The original demo artwork and background assets are not used.
+Source: https://github.com/slidevjs/themes/tree/main/packages/theme-bricks
+MIT license: https://github.com/slidevjs/themes/blob/main/LICENSE
+
+Video-specific photo layouts, annotation system and animations were adapted for this lesson. All game imagery comes from the existing genuine America-server recordings.
+Typography: Changa One and Roboto from Google Fonts, under their SIL Open Font Licenses. These are the custom video font choices; they are not the unmodified Bricks font defaults. Font/license files and upstream layout code are retained in the editing workspace.

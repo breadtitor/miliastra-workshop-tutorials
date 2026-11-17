@@ -1,0 +1,17 @@
+Blender4.2 Manual / Transform
+https://docs.blender.org/manual/en/4.2/scene_layout/object/properties/transforms.html
+
+Blender4.2 Manual / Text Editor
+https://docs.blender.org/manual/en/4.2/editors/text_editor.html
+
+Python3.14 Documentation / venv
+https://docs.python.org/3.14/library/venv.html
+
+Miliastra-Tools / source and GPL3 license
+https://github.com/Ayn1631/Miliastra-Tools
+
+Interface Guide / Import/Export Assets
+https://act.hoyoverse.com/ys/ugc/tutorial/detail/mhxbd59urbfu?lang=en-us
+
+General Knowledge of the Editor / 1.4 Importing and Exporting Saves
+https://act.hoyoverse.com/ys/ugc/tutorial/course/detail/mhjuwpiubrh0?lang=en-us

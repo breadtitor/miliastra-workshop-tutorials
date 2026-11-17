@@ -1,0 +1,30 @@
+{
+  "project": "Ayn1631/Miliastra-Tools",
+  "url": "https://github.com/Ayn1631/Miliastra-Tools",
+  "base_commit": "371d11aa737132eecb2cb0aaa47588a05f861b0f",
+  "local_updates": "The installed writer has subsequent local updates; this kit contains the exact corresponding source bytes. The base commit alone does not identify those updates.",
+  "license": "GPL-3.0; full license included",
+  "changes_in_kit": "Minimal package __init__ modules omit optional app imports. Builder, decoration and wire source are otherwise byte-for-byte copies.",
+  "files": [
+    {
+      "path": "miliastra_core/export/builder.py",
+      "sha256": "5adeada4783c86d28d2f3ebc33d4d64c7af0931c387281d2d9643f197014f4f7",
+      "source": "Installed GPL source; exact bytes retained, including pre-existing local updates."
+    },
+    {
+      "path": "miliastra_core/export/decoration.py",
+      "sha256": "3d18a52475bcfe2eb5863efad3760079c2fb1ee1cbf44887dd63a3491072509b",
+      "source": "Installed GPL source; exact bytes retained, including pre-existing local updates."
+    },
+    {
+      "path": "miliastra_core/protobuf/wire.py",
+      "sha256": "831f2d4924281d2185bdf45738c4d8c9b946f3bc4fcc822261c16aa76f0b9e97",
+      "source": "Installed GPL source; exact bytes retained, including pre-existing local updates."
+    }
+  ],
+  "template": {
+    "path": "Template/box_template.gia",
+    "source": "Upstream UI/白模解析.gia",
+    "sha256": "0f16b5f34764888810ea002b5eaf4efa3be4f446308a7d6ff39e5bb4fcc6baa1"
+  }
+}

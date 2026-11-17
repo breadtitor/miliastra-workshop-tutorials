@@ -1,0 +1,14 @@
+Concept Introduction / Functions / Common Components / Global Timer
+https://act.hoyoverse.com/ys/ugc/tutorial/detail/mhawd6rl5kpy?lang=en-us
+
+Concept Introduction / Assets / UI Controls / Timer UI Controls
+https://act.hoyoverse.com/ys/ugc/tutorial/detail/mhnrdor7uyra?lang=en-us
+
+Node Introduction / Server Nodes / Event Nodes
+https://act.hoyoverse.com/ys/ugc/tutorial/detail/mhn7ko01v3yw?lang=en-us
+
+Node Introduction / Server Nodes / Execution Nodes
+https://act.hoyoverse.com/ys/ugc/tutorial/detail/mhw66orrrfkm?lang=en-us
+
+Concept Introduction / Functions / Common Components / Custom Variables
+https://act.hoyoverse.com/ys/ugc/tutorial/detail/mhso1b9wjica?lang=en-us

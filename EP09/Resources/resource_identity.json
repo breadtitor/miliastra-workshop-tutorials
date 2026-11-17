@@ -1,0 +1,55 @@
+{
+  "files": [
+    {
+      "file": "export_miliastra_boxes.py",
+      "bytes": 4282,
+      "sha256": "c80caa98e0ece5fd1e34440a76f0b1509d4656a7a4c4ddf1e9964628eb45ea4f"
+    },
+    {
+      "file": "Woodland_Arch_Final.blend",
+      "bytes": 917884,
+      "sha256": "2b664262ee5c7b4753510c3fd5c3583cbcfb10d5d764e9a2e4310702a410d46b"
+    },
+    {
+      "file": "Woodland_Arch_Final.gia",
+      "bytes": 4914,
+      "sha256": "e2f6a1b38bc695d2a69b7abda80402428b593a3f03bad8d6859746f3ee25f09a"
+    },
+    {
+      "file": "Woodland_Arch_Final.json",
+      "bytes": 5125,
+      "sha256": "49bf4780fb95d71b8b96a4abc679bd879edabf6b5932e373e186bbc842cc203f"
+    },
+    {
+      "file": "Woodland_Arch_Final.readback.json",
+      "bytes": 2711,
+      "sha256": "4c31fce87a7eaa276d4a71738086df8c2de46867d07b5cad1bbe2d48ccbfc04c"
+    },
+    {
+      "file": "Woodland_Arch_Placed.gia",
+      "bytes": 4915,
+      "sha256": "12139ae8ae5696980abe9b34b1fa27d113033a393059fa1b27b0b59e5ac83e7c"
+    },
+    {
+      "file": "Woodland_Arch_Placed.json",
+      "bytes": 5131,
+      "sha256": "0a104bb7d8984ab7cac0aaeadfd02054b953ad3adc7227e2e85f52625c0e02dd"
+    },
+    {
+      "file": "Woodland_Arch_Placed.readback.json",
+      "bytes": 2718,
+      "sha256": "29dbf956c88b72cf305cae1c7a6652f87f4b693f15be4481ce3f6b83061e9fd6"
+    },
+    {
+      "file": "Woodland_Arch_Start.blend",
+      "bytes": 906396,
+      "sha256": "176efb02e82727bfd6a8e5d83706fc2edf30ccfd3f8a08d75b56ff2f47989107"
+    },
+    {
+      "file": "Woodland_EP09_R01_Final.gil",
+      "bytes": 85510,
+      "sha256": "477bf03cc32f79d552b990f4ea7c12f0a917dd41ee5c2acc94278a1dbc835083"
+    }
+  ],
+  "scope": "Final and Placed GIA were natively imported and inspected; final whole-save GIL not separately reimported. See README_EN.txt."
+}

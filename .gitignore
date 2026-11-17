@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+*.log
+*.mkv
+*.mp4
+*.prproj
+*.zip

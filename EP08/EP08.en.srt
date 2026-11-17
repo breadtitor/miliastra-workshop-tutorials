@@ -1,0 +1,432 @@
+1
+00:00:00,299 --> 00:00:04,340
+The bar says five out of five, but we've only collected one coin.
+
+2
+00:00:04,395 --> 00:00:09,794
+At the end, the game reports Failed, with one Coin. This time the
+display is misleading.
+
+3
+00:00:09,819 --> 00:00:13,549
+We'll use that deliberate fault to trace the data, fix the
+binding,
+
+4
+00:00:13,574 --> 00:00:16,646
+and check a separately imported copy of the whole woodland.
+
+5
+00:00:22,337 --> 00:00:27,517
+We'll compare the HUD with the native log, inspect one binding,
+and test a small repair.
+
+6
+00:00:27,601 --> 00:00:33,627
+Then we'll export the corrected save, import a separate card, and
+play the complete timed challenge there.
+
+7
+00:00:33,788 --> 00:00:38,113
+Continue from the achievement lesson in a practice copy, keeping
+the tested source available.
+
+8
+00:00:38,811 --> 00:00:43,194
+Before changing anything, open the CoinProgress template's
+Functions settings.
+
+9
+00:00:43,291 --> 00:00:47,354
+Our correct Current Progress Value is Player Themself, Coins.
+
+10
+00:00:47,558 --> 00:00:54,157
+Minimum is ProgressMin, and maximum is CoinGoal. Read those three
+roles separately. This gives us a
+
+11
+00:00:54,182 --> 00:00:59,041
+clear starting point for the fault, rather than trying to remember
+what a working bar looked like.
+
+12
+00:00:59,875 --> 00:01:05,848
+In this separate practice copy, change only Current Progress Value
+to Player Themself, CoinGoal.
+
+13
+00:01:05,958 --> 00:01:12,133
+Keep the minimum and maximum as they were. Use Save Changes,
+Confirm Changes, and save the scene.
+
+14
+00:01:12,315 --> 00:01:16,250
+We're intentionally making the display read the goal as though it
+were the current count.
+
+15
+00:01:16,369 --> 00:01:18,096
+The pickup graph hasn't been changed.
+
+16
+00:01:23,858 --> 00:01:26,875
+Start a fresh private test and stop at the spawn point.
+
+17
+00:01:27,015 --> 00:01:32,443
+The coins are still waiting, and Start hasn't been pressed, but
+the bar already reads five out of five.
+
+18
+00:01:32,562 --> 00:01:36,733
+That is our first useful observation. It tells us the full display
+appeared
+
+19
+00:01:36,758 --> 00:01:40,854
+before a successful pickup, so we shouldn't begin by adding
+another counting node.
+
+20
+00:01:41,538 --> 00:01:46,808
+Press F to start and walk through one coin. It disappears, but the
+bar stays full.
+
+21
+00:01:46,939 --> 00:01:52,751
+The unchanged bar doesn't tell us whether the counter changed. We
+need another observation from the data path.
+
+22
+00:01:52,955 --> 00:01:58,454
+Keep this attempt distinct from a retry, so the log and result we
+read belong to the same test.
+
+23
+00:01:59,623 --> 00:02:05,542
+In Miliastra Sandbox, open Window, then Log, and select the
+intended server graph.
+
+24
+00:02:05,682 --> 00:02:10,790
+In this attempt's log, Stage Start is followed by the start
+message and Print, one.
+
+25
+00:02:10,844 --> 00:02:13,815
+The pickup graph's print reads the stored Player Coins.
+
+26
+00:02:13,907 --> 00:02:18,055
+That gives us a different answer from the full HUD, without adding
+a second counter.
+
+27
+00:02:19,075 --> 00:02:22,306
+This fault demonstration also reaches natural settlement.
+
+28
+00:02:22,446 --> 00:02:27,158
+It reports Failed, with one Coin, while the incorrect HUD had
+looked complete.
+
+29
+00:02:27,371 --> 00:02:32,637
+The counter and the result agree on one. The display is the part
+that disagrees. We now have a
+
+30
+00:02:32,662 --> 00:02:37,634
+reason to inspect its source binding, rather than changing the
+challenge goal to make the result fit.
+
+31
+00:02:38,428 --> 00:02:44,491
+Return to the template. Coins is the amount collected. ProgressMin
+is the empty end of the range.
+
+32
+00:02:44,716 --> 00:02:48,587
+CoinGoal is the amount required for a full bar and the challenge
+rule.
+
+33
+00:02:48,727 --> 00:02:52,841
+Our mistake puts CoinGoal in both the current and maximum fields.
+
+34
+00:02:52,969 --> 00:02:57,572
+With five compared against five, the bar looks full even when
+Coins is zero.
+
+35
+00:02:58,409 --> 00:03:02,108
+Change Current Progress Value back to Player Themself, Coins.
+
+36
+00:03:02,248 --> 00:03:05,232
+Leave ProgressMin and CoinGoal in the range fields.
+
+37
+00:03:05,338 --> 00:03:12,224
+Use Save Changes and Confirm Changes, then Quick Save the scene.
+This repair changes the display's input.
+
+38
+00:03:12,249 --> 00:03:17,652
+It keeps the tested pickup and settlement rules available, so we
+can check whether the observations now agree.
+
+39
+00:03:23,329 --> 00:03:28,480
+Run a fresh private test. Before Start, the display is empty at
+zero out of five.
+
+40
+00:03:28,577 --> 00:03:34,997
+Press F, collect one coin and stop. The bar now reads one out of
+five with about twenty percent fill.
+
+41
+00:03:35,084 --> 00:03:38,208
+Check this small case before repeating the entire route.
+
+42
+00:03:38,326 --> 00:03:41,854
+It is enough to show that the repaired control follows a real
+pickup again.
+
+43
+00:03:42,509 --> 00:03:48,857
+Return to the editor and save the corrected practice copy. Give
+the saved version a recognisable identity.
+
+44
+00:03:48,976 --> 00:03:54,749
+We now want to check more than the currently open scene. An
+exported file and a separately imported card
+
+45
+00:03:54,774 --> 00:04:00,919
+will let us find out whether the whole project arrives with the
+variables, layout, graphs and rules it needs.
+
+46
+00:04:01,680 --> 00:04:06,895
+On Local Save, open the corrected card's menu and choose Export
+Save File.
+
+47
+00:04:06,971 --> 00:04:10,586
+Choose your own folder and retain the whole-save file format.
+
+48
+00:04:10,726 --> 00:04:16,226
+The resource supplied with this lesson is Woodland, Episode Eight,
+Restored. Its exact file
+
+49
+00:04:16,251 --> 00:04:20,944
+is the one used in our import check. Keep the source card as well
+as the exported file.
+
+50
+00:04:21,637 --> 00:04:25,836
+Choose Import Save and select that exported whole-save file.
+
+51
+00:04:25,861 --> 00:04:30,629
+Wait for the new card, then give it a distinct name. Our imported
+copy is Woodland,
+
+52
+00:04:30,654 --> 00:04:35,848
+Episode Eight, Restored Final. The folder chooser is outside the
+captured views.
+
+53
+00:04:35,945 --> 00:04:41,234
+Read the new card before opening it, so you can distinguish the
+imported project from the practice source.
+
+54
+00:04:41,970 --> 00:04:47,526
+Open the restored card. Check the stone trail, trees, shrubs and
+five coins.
+
+55
+00:04:47,773 --> 00:04:53,382
+A thumbnail is useful for finding a card, but it doesn't show that
+its objects and rules arrived correctly.
+
+56
+00:04:53,469 --> 00:04:58,542
+Look at several recognizable parts of the actual scene, including
+the route the player will use.
+
+57
+00:04:59,375 --> 00:05:04,086
+Inspect Default Player through Edit Player. Check the standard
+variables Coins,
+
+58
+00:05:04,141 --> 00:05:09,612
+ProgressMin and CoinGoal as Integers, with defaults zero, zero and
+five.
+
+59
+00:05:09,688 --> 00:05:15,610
+Check RoundStarted and RoundActive as Booleans, both No. These
+definitions connect the pickup,
+
+60
+00:05:15,635 --> 00:05:20,471
+interface and timed controller. A restored picture of the woodland
+wouldn't replace them.
+
+61
+00:05:21,156 --> 00:05:26,336
+In Timer Management, read Round Timer as Countdown, one hundred
+and twenty seconds.
+
+62
+00:05:26,506 --> 00:05:30,824
+In Default Layout, find CoinProgress, Timer and the Start button.
+
+63
+00:05:30,942 --> 00:05:35,346
+Check that the active Custom Class selects that layout. The
+timer's Player source
+
+64
+00:05:35,422 --> 00:05:39,374
+and the button's instance reference still need to agree with the
+imported controller.
+
+65
+00:05:45,162 --> 00:05:48,010
+Start a fresh private test from this restored card.
+
+66
+00:05:48,106 --> 00:05:53,130
+We see zero out of five and an inactive timer before Start. Press
+F to begin.
+
+67
+00:05:53,355 --> 00:05:58,970
+In this imported copy, a second F leaves the countdown decreasing.
+This checks a real connection
+
+68
+00:05:59,002 --> 00:06:04,200
+in the new card, rather than assuming every reference is correct
+because import completed.
+
+69
+00:06:05,256 --> 00:06:10,876
+Walk along the route and collect the coins. In this run, the HUD
+reaches three out of five,
+
+70
+00:06:10,973 --> 00:06:15,641
+then five out of five at the pavilion. The visible coins disappear
+along the way.
+
+71
+00:06:15,725 --> 00:06:21,110
+The shown movement stays at normal speed; standing and the longer
+wait are shortened in the lesson.
+
+72
+00:06:21,880 --> 00:06:28,170
+Let the full countdown reach zero naturally. The restored copy
+reports Victory, with five Coins.
+
+73
+00:06:28,382 --> 00:06:34,300
+That checks the complete path from its Start input through
+pickups, live display and timed settlement.
+
+74
+00:06:34,355 --> 00:06:40,135
+It is stronger evidence for this particular file than a successful
+load message or a familiar-looking scene.
+
+75
+00:06:40,924 --> 00:06:45,250
+Inspect Achievement Obtained as well. Our restored test shows
+FreshStart,
+
+76
+00:06:45,275 --> 00:06:50,832
+First Coin, ThreeCoins, All Five and Clear Run, together with the
+Ultimate trophy.
+
+77
+00:06:51,036 --> 00:06:56,234
+This is the private-test result for the imported file. It doesn't
+establish public or permanent-account
+
+78
+00:06:56,259 --> 00:07:01,101
+awards, but it does show the configured lesson goals completing in
+this restored challenge.
+
+79
+00:07:01,968 --> 00:07:06,542
+Keep the exported file beside a short test note: which imported
+card you opened,
+
+80
+00:07:06,618 --> 00:07:09,059
+what you checked, and the result you observed.
+
+81
+00:07:09,178 --> 00:07:15,102
+The companion resources include the exact file used here and its
+hash. If you change the project later,
+
+82
+00:07:15,126 --> 00:07:19,274
+give that new version a distinct name and repeat the checks that
+matter to the change.
+
+83
+00:07:20,123 --> 00:07:25,155
+Try explaining the fault in one sentence: the bar read the goal
+instead of the collected count.
+
+84
+00:07:25,262 --> 00:07:29,503
+Then name the observations that supported the repair: a visible
+pickup,
+
+85
+00:07:29,528 --> 00:07:34,039
+the stored-count log, settlement, and the repaired zero-to-one
+display.
+
+86
+00:07:34,222 --> 00:07:38,574
+This is a useful way to narrow a problem before replacing parts
+that already work.
+
+87
+00:07:39,305 --> 00:07:41,298
+Keep your restored woodland available.
+
+88
+00:07:41,396 --> 00:07:47,329
+It now gives us a recoverable example of the coin, HUD, timer,
+result and achievement loop.
+
+89
+00:07:47,441 --> 00:07:52,451
+In the final advanced lesson, we'll bring a small Blender-built
+prop into a separate copy,
+
+90
+00:07:52,476 --> 00:07:57,590
+using a supported primitive conversion workflow and checking its
+actual appearance in the game.

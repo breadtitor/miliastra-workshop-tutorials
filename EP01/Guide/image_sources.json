@@ -1,0 +1,170 @@
+[
+  {
+    "image": "01_entry.jpg",
+    "final_sequence_seconds": 49.4,
+    "segment": "012_my_miliastra_button_1327_1480",
+    "edition": "R07",
+    "original_game_or_graphic_source": "capture/r03_entry01.mkv",
+    "context_reference": false
+  },
+  {
+    "image": "02_local_save.jpg",
+    "final_sequence_seconds": 62.766666666666666,
+    "segment": "015_local_save_tab_1849_2047",
+    "edition": "R07",
+    "original_game_or_graphic_source": "capture/r03_entry01.mkv",
+    "context_reference": false
+  },
+  {
+    "image": "03_new_save.jpg",
+    "final_sequence_seconds": 71.56666666666666,
+    "segment": "017_create_new_save_button_2128_2248",
+    "edition": "R07",
+    "original_game_or_graphic_source": "../EP01_R02/capture/local_save_client.png",
+    "context_reference": false
+  },
+  {
+    "image": "04_mode.jpg",
+    "final_sequence_seconds": 80.6,
+    "segment": "019_mode_window_2414_2495",
+    "edition": "R07",
+    "original_game_or_graphic_source": "../EP01_R02/capture/r02_take01.mkv",
+    "context_reference": false
+  },
+  {
+    "image": "05_workspace.jpg",
+    "final_sequence_seconds": 106.06666666666666,
+    "segment": "024_scene_workspace_3223_3418",
+    "edition": "R07",
+    "original_game_or_graphic_source": "../EP01_R02/capture/r02_take01.mkv",
+    "context_reference": false
+  },
+  {
+    "image": "06_entities.jpg",
+    "final_sequence_seconds": 195.46666666666667,
+    "segment": "030_entity_explained_4504_4662",
+    "edition": "R07",
+    "original_game_or_graphic_source": "stills/entity_explained.png",
+    "context_reference": true
+  },
+  {
+    "image": "07_camera.jpg",
+    "final_sequence_seconds": 141.63333333333333,
+    "segment": "034_camera_w_forward_5084_5222",
+    "edition": "R07",
+    "original_game_or_graphic_source": "capture/r03_navigation01.mkv",
+    "context_reference": false
+  },
+  {
+    "image": "08_camera_speed.jpg",
+    "final_sequence_seconds": 167.76666666666668,
+    "segment": "040_camera_speed_25_to_10_5868_6000",
+    "edition": "R07",
+    "original_game_or_graphic_source": "capture/r03_navigation01.mkv",
+    "context_reference": false
+  },
+  {
+    "image": "09_arbor.jpg",
+    "final_sequence_seconds": 215.8,
+    "segment": "045_arbor_instance_selected_6633_6696",
+    "edition": "R07",
+    "original_game_or_graphic_source": "../EP01_R02/capture/r02_take01.mkv",
+    "context_reference": false
+  },
+  {
+    "image": "10_transform.jpg",
+    "final_sequence_seconds": 229.8,
+    "segment": "047_transform_explained_6912_7326",
+    "edition": "R07",
+    "original_game_or_graphic_source": "stills/transform_explained.png",
+    "context_reference": true
+  },
+  {
+    "image": "11_location.jpg",
+    "final_sequence_seconds": 237.1,
+    "segment": "048_tree_location_x_input_7326_7467",
+    "edition": "R07",
+    "original_game_or_graphic_source": "../EP01_R02/capture/r02_take01.mkv",
+    "context_reference": false
+  },
+  {
+    "image": "12_rock.jpg",
+    "final_sequence_seconds": 269.8333333333333,
+    "segment": "056_rock_selection_check_8400_8553",
+    "edition": "R07",
+    "original_game_or_graphic_source": "capture/r07_rock_continuity02.mkv",
+    "context_reference": false
+  },
+  {
+    "image": "13_rotate.jpg",
+    "final_sequence_seconds": 290.9,
+    "segment": "061_rock_quarter_turn_9062_9200",
+    "edition": "R07",
+    "original_game_or_graphic_source": "capture/r07_rock_continuity02.mkv",
+    "context_reference": false
+  },
+  {
+    "image": "14_scale.jpg",
+    "final_sequence_seconds": 323.4,
+    "segment": "068_scale_comparison_10079_10197",
+    "edition": "R07",
+    "original_game_or_graphic_source": "assets/Rock03_OneAxis.png + assets/Rock03_EqualAxes.png",
+    "context_reference": false
+  },
+  {
+    "image": "15_tree_finish.jpg",
+    "final_sequence_seconds": 349.03333333333336,
+    "segment": "077_tree_zoom_z_applied_11018_11060",
+    "edition": "R07",
+    "original_game_or_graphic_source": "capture/r07_continuity01.mkv",
+    "context_reference": false
+  },
+  {
+    "image": "16_spacing.jpg",
+    "final_sequence_seconds": 359.6333333333333,
+    "segment": "082_both_landmarks_editor_11475_11595",
+    "edition": "R07",
+    "original_game_or_graphic_source": "capture/r07_continuity01.mkv",
+    "context_reference": false
+  },
+  {
+    "image": "17_undo.jpg",
+    "final_sequence_seconds": 375.5,
+    "segment": "086_undo_restored_field_12033_12162",
+    "edition": "R07",
+    "original_game_or_graphic_source": "capture/r03_navigation01.mkv",
+    "context_reference": false
+  },
+  {
+    "image": "18_save.jpg",
+    "final_sequence_seconds": 392.3666666666667,
+    "segment": "089_save_success_message_12548_12644",
+    "edition": "R07",
+    "original_game_or_graphic_source": "../EP01_R02/capture/r02_take02.mkv",
+    "context_reference": false
+  },
+  {
+    "image": "19_test_options.jpg",
+    "final_sequence_seconds": 417.06666666666666,
+    "segment": "095_test_options_13417_13681",
+    "edition": "R07",
+    "original_game_or_graphic_source": "../EP01_R02/capture/r02_take02.mkv",
+    "context_reference": false
+  },
+  {
+    "image": "20_walk.jpg",
+    "final_sequence_seconds": 435.56666666666666,
+    "segment": "098_walk_stop_look_13987_14377",
+    "edition": "R07",
+    "original_game_or_graphic_source": "capture/r03_testplay01.mkv",
+    "context_reference": false
+  },
+  {
+    "image": "21_return.jpg",
+    "final_sequence_seconds": 460.43333333333334,
+    "segment": "102_test_result_exit_14808_14928",
+    "edition": "R07",
+    "original_game_or_graphic_source": "capture/r03_testplay01.mkv",
+    "context_reference": false
+  }
+]

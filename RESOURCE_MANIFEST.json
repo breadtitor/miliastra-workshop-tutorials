@@ -1,0 +1,1520 @@
+{
+  "scope": "Illustrated guides, English subtitles and supplied lesson resources. No videos or private evidence.",
+  "files": [
+    {
+      "path": "README_EN.txt",
+      "bytes": 1721,
+      "sha256": "697ade40a4f1cbae022bda1761fe198e3b7d0c8db18f1e1b15c828b53b260fa1"
+    },
+    {
+      "path": "EP01/EP01.en.srt",
+      "bytes": 13791,
+      "sha256": "f346920dc197936b7aadeffc3341ad525513f812705eaa4a20f401c3351cafe3"
+    },
+    {
+      "path": "EP01/EP01_Follow_Along_EN.md",
+      "bytes": 12029,
+      "sha256": "44b4093cd4ae5b7a3d3b081bebef9482ef169f461a2cd12985a737668857f057"
+    },
+    {
+      "path": "EP01/EP01_Official_References_EN.md",
+      "bytes": 2328,
+      "sha256": "a61e11c8c4d590c1dd71c3e82010ba9e303f7e8bc3c0d6a9406ef050b8f4a484"
+    },
+    {
+      "path": "EP01/Template_Credits_EN.txt",
+      "bytes": 759,
+      "sha256": "fd01289cd30df07b4899cf98e4bdc26bc66eb7de4ccd656924c21788f9b7a37d"
+    },
+    {
+      "path": "EP01/Template_MIT_License.txt",
+      "bytes": 1071,
+      "sha256": "81405b601a5bb20cdae6349dd3ae5161adf2f05708f1ae118c801c9733fcd322"
+    },
+    {
+      "path": "EP02/EP02.en.srt",
+      "bytes": 10725,
+      "sha256": "07dcd1466ff20b850f544e8ccb69eaacf5e927afd71136f730d8f2942667cadf"
+    },
+    {
+      "path": "EP02/EP02_Follow_Along_EN.html",
+      "bytes": 13344,
+      "sha256": "b2ddcc3e832fcd965a3932eb887d6af474adf22c6624a590cbe515163bcdae20"
+    },
+    {
+      "path": "EP02/EP02_Official_References_EN.txt",
+      "bytes": 407,
+      "sha256": "e5367a373c135016b64955d2a437bbdfb4b773272d6dbcad2b58f0e2f3f2850f"
+    },
+    {
+      "path": "EP02/Template_Credits_EN.txt",
+      "bytes": 759,
+      "sha256": "fd01289cd30df07b4899cf98e4bdc26bc66eb7de4ccd656924c21788f9b7a37d"
+    },
+    {
+      "path": "EP02/Template_MIT_License.txt",
+      "bytes": 1071,
+      "sha256": "81405b601a5bb20cdae6349dd3ae5161adf2f05708f1ae118c801c9733fcd322"
+    },
+    {
+      "path": "EP03/EP03.en.srt",
+      "bytes": 10625,
+      "sha256": "6b90c537a9f76df2820989f61fbe359f78ccb1c7adc72016201c51782a23be45"
+    },
+    {
+      "path": "EP03/EP03_Follow_Along_EN.html",
+      "bytes": 12912,
+      "sha256": "d453423e3fc6d12364ac12fde293e5740843c85a047c13e4f35ac6286c42f9da"
+    },
+    {
+      "path": "EP03/EP03_Official_References_EN.txt",
+      "bytes": 371,
+      "sha256": "56be71390140274aa0d989827816d8ada3e9d5bd6865f2a449541182e22ac575"
+    },
+    {
+      "path": "EP03/Template_Credits_EN.txt",
+      "bytes": 759,
+      "sha256": "fd01289cd30df07b4899cf98e4bdc26bc66eb7de4ccd656924c21788f9b7a37d"
+    },
+    {
+      "path": "EP03/Template_MIT_License.txt",
+      "bytes": 1071,
+      "sha256": "81405b601a5bb20cdae6349dd3ae5161adf2f05708f1ae118c801c9733fcd322"
+    },
+    {
+      "path": "EP04/EP04.en.srt",
+      "bytes": 13060,
+      "sha256": "a6669628d2272f23c339c84968d8f1c9656e015dcc81ad08341ef13e7d11f28d"
+    },
+    {
+      "path": "EP04/EP04_Follow_Along_EN.html",
+      "bytes": 18576,
+      "sha256": "c3ab1a6409a1730d94612531ab69bb73f6d4c71e7980d2a77c3b4368c691a47c"
+    },
+    {
+      "path": "EP04/EP04_Official_References_EN.txt",
+      "bytes": 1360,
+      "sha256": "491539a161f565f24b456899e444c205f2e762e587b73f5d9b193dc686403dbc"
+    },
+    {
+      "path": "EP04/Template_Credits_EN.txt",
+      "bytes": 759,
+      "sha256": "fd01289cd30df07b4899cf98e4bdc26bc66eb7de4ccd656924c21788f9b7a37d"
+    },
+    {
+      "path": "EP04/Template_MIT_License.txt",
+      "bytes": 1071,
+      "sha256": "81405b601a5bb20cdae6349dd3ae5161adf2f05708f1ae118c801c9733fcd322"
+    },
+    {
+      "path": "EP05/EP05.en.srt",
+      "bytes": 11376,
+      "sha256": "6430e1e1d9a2c601ab4779c74473c1565e2eb8d9399c947293c8abf0a8a39dde"
+    },
+    {
+      "path": "EP05/EP05_Follow_Along_EN.html",
+      "bytes": 16328,
+      "sha256": "51ae624d3c6217985f9417750245e55fb12344d14048b486a62514e473abd179"
+    },
+    {
+      "path": "EP05/EP05_Official_References_EN.txt",
+      "bytes": 492,
+      "sha256": "7a2e06e130431764e2948b5d51e3e5348906ef4e1dc18f8590af2862aee568bc"
+    },
+    {
+      "path": "EP05/Template_Credits_EN.txt",
+      "bytes": 759,
+      "sha256": "fd01289cd30df07b4899cf98e4bdc26bc66eb7de4ccd656924c21788f9b7a37d"
+    },
+    {
+      "path": "EP05/Template_MIT_License.txt",
+      "bytes": 1071,
+      "sha256": "81405b601a5bb20cdae6349dd3ae5161adf2f05708f1ae118c801c9733fcd322"
+    },
+    {
+      "path": "EP06/EP06.en.srt",
+      "bytes": 13151,
+      "sha256": "8eed296b3c3fe8f7a153a7710a07f7dd3b2ee6a4f6d233a44bbfdb90df425c8f"
+    },
+    {
+      "path": "EP06/EP06_Follow_Along_EN.html",
+      "bytes": 18367,
+      "sha256": "9e0551b36fa3ae3aceeb0a11dd96e7cf87cca62c609d190c564ed306d4e716cd"
+    },
+    {
+      "path": "EP06/EP06_Official_References_EN.txt",
+      "bytes": 685,
+      "sha256": "353ebc96d3b563933e466625fd8e176938d5f68469cc07a8a73d1eddb1639d9b"
+    },
+    {
+      "path": "EP06/Template_Credits_EN.txt",
+      "bytes": 759,
+      "sha256": "fd01289cd30df07b4899cf98e4bdc26bc66eb7de4ccd656924c21788f9b7a37d"
+    },
+    {
+      "path": "EP06/Template_MIT_License.txt",
+      "bytes": 1071,
+      "sha256": "81405b601a5bb20cdae6349dd3ae5161adf2f05708f1ae118c801c9733fcd322"
+    },
+    {
+      "path": "EP07/EP07.en.srt",
+      "bytes": 10868,
+      "sha256": "911072491b977a3623c55486f827f3d25637481087d83149e52620933d1cb4b2"
+    },
+    {
+      "path": "EP07/EP07_Follow_Along_EN.html",
+      "bytes": 15117,
+      "sha256": "bfa7d4d579acf4211b1fca6599bd93d00ad8577e2bc57f06564d8c0316d065a1"
+    },
+    {
+      "path": "EP07/EP07_Official_References_EN.txt",
+      "bytes": 279,
+      "sha256": "817f4ec5edf308c4377c2f74d58f874dee74f0092066cb72eea35ffb28f86609"
+    },
+    {
+      "path": "EP07/Template_Credits_EN.txt",
+      "bytes": 759,
+      "sha256": "fd01289cd30df07b4899cf98e4bdc26bc66eb7de4ccd656924c21788f9b7a37d"
+    },
+    {
+      "path": "EP07/Template_MIT_License.txt",
+      "bytes": 1071,
+      "sha256": "81405b601a5bb20cdae6349dd3ae5161adf2f05708f1ae118c801c9733fcd322"
+    },
+    {
+      "path": "EP08/EP08.en.srt",
+      "bytes": 11053,
+      "sha256": "38f87bccd33162998f7f745a8ee37bc87fa2bb2a3b4ebfd14c60b916002885e2"
+    },
+    {
+      "path": "EP08/EP08_Follow_Along_EN.html",
+      "bytes": 14516,
+      "sha256": "4621844d633729c49d8cb75496479833368263438f5dbb610437a11d1bf15420"
+    },
+    {
+      "path": "EP08/EP08_Official_References_EN.txt",
+      "bytes": 996,
+      "sha256": "2f18d20c718cfa12a2a4f6aeb0f35960a187cab1ebc3d15fe10059117ad2de09"
+    },
+    {
+      "path": "EP08/Template_Credits_EN.txt",
+      "bytes": 759,
+      "sha256": "fd01289cd30df07b4899cf98e4bdc26bc66eb7de4ccd656924c21788f9b7a37d"
+    },
+    {
+      "path": "EP08/Template_MIT_License.txt",
+      "bytes": 1071,
+      "sha256": "81405b601a5bb20cdae6349dd3ae5161adf2f05708f1ae118c801c9733fcd322"
+    },
+    {
+      "path": "EP09/EP09.en.srt",
+      "bytes": 11760,
+      "sha256": "e1a20e8373669d8d6fdea43233d288a3b69641480dd098652a1cffb97a87dbcc"
+    },
+    {
+      "path": "EP09/EP09_Follow_Along_EN.html",
+      "bytes": 14317,
+      "sha256": "90c6692cf8de843d20efe06d07444d6bb28caf5ded0e1fefa5484fb360241391"
+    },
+    {
+      "path": "EP09/EP09_Official_References_EN.txt",
+      "bytes": 658,
+      "sha256": "23cfd4f3a7cb034f06603a715a95324b8d5feff9872ad6981d593b26f91aacb0"
+    },
+    {
+      "path": "EP09/Template_Credits_EN.txt",
+      "bytes": 759,
+      "sha256": "fd01289cd30df07b4899cf98e4bdc26bc66eb7de4ccd656924c21788f9b7a37d"
+    },
+    {
+      "path": "EP09/Template_MIT_License.txt",
+      "bytes": 1071,
+      "sha256": "81405b601a5bb20cdae6349dd3ae5161adf2f05708f1ae118c801c9733fcd322"
+    },
+    {
+      "path": "EP09/Guide/01_scope.jpg",
+      "bytes": 188882,
+      "sha256": "91724c9437f771918930e53c0d7de7d2f1e032e89926e28c969a3c8fa1b1b30b"
+    },
+    {
+      "path": "EP09/Guide/02_files.jpg",
+      "bytes": 165546,
+      "sha256": "aa316a8e4cf7fb9c9a01fc932ad99bd92e7ad9c66e67c5149454268b3bf6c051"
+    },
+    {
+      "path": "EP09/Guide/03_open.jpg",
+      "bytes": 177496,
+      "sha256": "6427c3a34ca6189079bf70af53a5f8711b6423e5b4f4c4831318a5a838c9d4d8"
+    },
+    {
+      "path": "EP09/Guide/04_select.jpg",
+      "bytes": 153574,
+      "sha256": "78508102df5dbc57a653ac563e89ade438b993ebcc22642773164ec86ad657b1"
+    },
+    {
+      "path": "EP09/Guide/05_dimension.jpg",
+      "bytes": 318164,
+      "sha256": "682b29e343940762b0ff3bfe3e1aa73873b4746c02c2772ef01330fb85b053af"
+    },
+    {
+      "path": "EP09/Guide/06_constraints.jpg",
+      "bytes": 167404,
+      "sha256": "282f1c02c0580cd2c7a498782462cddbf51c73dcc2608bd06f27a1ea071ceaa4"
+    },
+    {
+      "path": "EP09/Guide/07_save.jpg",
+      "bytes": 156800,
+      "sha256": "cdb11131c4e3f81f4c64be12864f74490beda0463749233588dab2a2df6bfd2b"
+    },
+    {
+      "path": "EP09/Guide/08_helper.jpg",
+      "bytes": 149161,
+      "sha256": "1e62d74433039568dff2c45d2b5f620f13b8fd5f500c52eefeab418b6c7592aa"
+    },
+    {
+      "path": "EP09/Guide/09_export.jpg",
+      "bytes": 260251,
+      "sha256": "704c86ddf584e83e74ddd5902675887995784a4992b00e183948aed3d527acee"
+    },
+    {
+      "path": "EP09/Guide/10_export_fields.jpg",
+      "bytes": 161653,
+      "sha256": "71f2328fe06a743d710c4d943d0b41b6ea91472ec332ca3e3e0fa76edb0b50f7"
+    },
+    {
+      "path": "EP09/Guide/11_axes.jpg",
+      "bytes": 173847,
+      "sha256": "b979b4e487ab10ce1dbabb3d414817568367fa96b8ae4aeca2b63f73fb95a3eb"
+    },
+    {
+      "path": "EP09/Guide/12_origin.jpg",
+      "bytes": 225225,
+      "sha256": "4c78bf458e142c4c70a7477a51c80a2980f1c459c762369089a75946d8ade21a"
+    },
+    {
+      "path": "EP09/Guide/13_environment.jpg",
+      "bytes": 144546,
+      "sha256": "43dcdc4519612630baf78741ffaa56979787f950dc388d1d036b9e2d1796a8c9"
+    },
+    {
+      "path": "EP09/Guide/14_convert.jpg",
+      "bytes": 149494,
+      "sha256": "d896a647ce823976aba3febbb494b58f8c9abf78035d7ce8fd1f109ce49598cc"
+    },
+    {
+      "path": "EP09/Guide/15_readback.jpg",
+      "bytes": 170665,
+      "sha256": "632e48301e2236785f024a1a199de1a0dd262d82fd83270e6ab9a82e7cfdccea"
+    },
+    {
+      "path": "EP09/Guide/16_sandbox.jpg",
+      "bytes": 370368,
+      "sha256": "7216f1c9e6d9ecb158b36c1e9cfb71da0456776679619a60480d39b21f62c4ec"
+    },
+    {
+      "path": "EP09/Guide/17_import.jpg",
+      "bytes": 114841,
+      "sha256": "f15df3a7499397c4a853fbdfd513c7d4577096e63a0f63c8ba1b68e67138d09a"
+    },
+    {
+      "path": "EP09/Guide/18_transfer.jpg",
+      "bytes": 128641,
+      "sha256": "46611cd29f8bcda3c2dd5d8087417d8713082f8249aa23b42c8e03d8f75e4020"
+    },
+    {
+      "path": "EP09/Guide/19_empty_test.jpg",
+      "bytes": 276778,
+      "sha256": "1f3ac028778f2381dcaa24be2c89b55a898acddd1cea25b4925ac6b2a3f802bb"
+    },
+    {
+      "path": "EP09/Guide/20_integrate.jpg",
+      "bytes": 198630,
+      "sha256": "cdbb249cc4f2bf2849d5ddbf2672d0ff0d3626743eda3d4ee6ff9978287305e8"
+    },
+    {
+      "path": "EP09/Guide/21_walk.jpg",
+      "bytes": 380633,
+      "sha256": "82e3560983d2db46594d18a240617967ea6140996877efada120ec95c331c313"
+    },
+    {
+      "path": "EP09/Guide/22_checkpoint.jpg",
+      "bytes": 203788,
+      "sha256": "3877928787f3119f56f49a2d5bbb8e8d5196aa8c3ec1e012bf6740b7bb8c2b4c"
+    },
+    {
+      "path": "EP09/Guide/image_sources.json",
+      "bytes": 5777,
+      "sha256": "c316385e0e74dcc088a007d3a83f2be8ac0dd59591d0480ded6b68a4d1b83c7b"
+    },
+    {
+      "path": "EP09/Resources/export_miliastra_boxes.py",
+      "bytes": 4282,
+      "sha256": "c80caa98e0ece5fd1e34440a76f0b1509d4656a7a4c4ddf1e9964628eb45ea4f"
+    },
+    {
+      "path": "EP09/Resources/README_EN.txt",
+      "bytes": 3621,
+      "sha256": "678d77021b8b3f7dd7fde10e7646ed0f87e43e10b84933df106f17ccd066e7fd"
+    },
+    {
+      "path": "EP09/Resources/resource_identity.json",
+      "bytes": 1835,
+      "sha256": "cf62ee6f9ce2a350ed8daf39ea92467cf862418d33a53cc517fcb4b7f9a0c589"
+    },
+    {
+      "path": "EP09/Resources/Woodland_Arch_Final.blend",
+      "bytes": 917884,
+      "sha256": "2b664262ee5c7b4753510c3fd5c3583cbcfb10d5d764e9a2e4310702a410d46b"
+    },
+    {
+      "path": "EP09/Resources/Woodland_Arch_Final.gia",
+      "bytes": 4914,
+      "sha256": "e2f6a1b38bc695d2a69b7abda80402428b593a3f03bad8d6859746f3ee25f09a"
+    },
+    {
+      "path": "EP09/Resources/Woodland_Arch_Final.json",
+      "bytes": 5125,
+      "sha256": "49bf4780fb95d71b8b96a4abc679bd879edabf6b5932e373e186bbc842cc203f"
+    },
+    {
+      "path": "EP09/Resources/Woodland_Arch_Final.readback.json",
+      "bytes": 2711,
+      "sha256": "4c31fce87a7eaa276d4a71738086df8c2de46867d07b5cad1bbe2d48ccbfc04c"
+    },
+    {
+      "path": "EP09/Resources/Woodland_Arch_Placed.gia",
+      "bytes": 4915,
+      "sha256": "12139ae8ae5696980abe9b34b1fa27d113033a393059fa1b27b0b59e5ac83e7c"
+    },
+    {
+      "path": "EP09/Resources/Woodland_Arch_Placed.json",
+      "bytes": 5131,
+      "sha256": "0a104bb7d8984ab7cac0aaeadfd02054b953ad3adc7227e2e85f52625c0e02dd"
+    },
+    {
+      "path": "EP09/Resources/Woodland_Arch_Placed.readback.json",
+      "bytes": 2718,
+      "sha256": "29dbf956c88b72cf305cae1c7a6652f87f4b693f15be4481ce3f6b83061e9fd6"
+    },
+    {
+      "path": "EP09/Resources/Woodland_Arch_Start.blend",
+      "bytes": 906396,
+      "sha256": "176efb02e82727bfd6a8e5d83706fc2edf30ccfd3f8a08d75b56ff2f47989107"
+    },
+    {
+      "path": "EP09/Resources/Woodland_EP09_R01_Final.gil",
+      "bytes": 85510,
+      "sha256": "477bf03cc32f79d552b990f4ea7c12f0a917dd41ee5c2acc94278a1dbc835083"
+    },
+    {
+      "path": "EP09/Resources/Primitive_Kit/convert_boxes.py",
+      "bytes": 5855,
+      "sha256": "1e2d7d4aced17abcde99ae2cf43b06e4f8953006aba204887fecb00e0737afb4"
+    },
+    {
+      "path": "EP09/Resources/Primitive_Kit/GPL_3_License.txt",
+      "bytes": 35823,
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+    },
+    {
+      "path": "EP09/Resources/Primitive_Kit/README_EN.txt",
+      "bytes": 3688,
+      "sha256": "7c9549445161bb1504d222f149b6c14a25dd6e91f975a906648f49dc13604624"
+    },
+    {
+      "path": "EP09/Resources/Primitive_Kit/requirements.txt",
+      "bytes": 18,
+      "sha256": "1ef16a7044d92303656ac6d75d52125260c4703f4063f53ebfed73085b391517"
+    },
+    {
+      "path": "EP09/Resources/Primitive_Kit/SOURCE_NOTICE.json",
+      "bytes": 1524,
+      "sha256": "5e010a8ca19f73c8ee1a248a3244b2187a0fbc26f8c0b0605305c7cde84ea6fd"
+    },
+    {
+      "path": "EP09/Resources/Primitive_Kit/miliastra_core/__init__.py",
+      "bytes": 109,
+      "sha256": "91fb55b45eb69caab4419fd700d3859db6de4809ecd9069f596e6edb5134e2a1"
+    },
+    {
+      "path": "EP09/Resources/Primitive_Kit/Template/box_template.gia",
+      "bytes": 10836,
+      "sha256": "0f16b5f34764888810ea002b5eaf4efa3be4f446308a7d6ff39e5bb4fcc6baa1"
+    },
+    {
+      "path": "EP09/Resources/Primitive_Kit/miliastra_core/export/builder.py",
+      "bytes": 29591,
+      "sha256": "5adeada4783c86d28d2f3ebc33d4d64c7af0931c387281d2d9643f197014f4f7"
+    },
+    {
+      "path": "EP09/Resources/Primitive_Kit/miliastra_core/export/decoration.py",
+      "bytes": 31471,
+      "sha256": "3d18a52475bcfe2eb5863efad3760079c2fb1ee1cbf44887dd63a3491072509b"
+    },
+    {
+      "path": "EP09/Resources/Primitive_Kit/miliastra_core/export/__init__.py",
+      "bytes": 109,
+      "sha256": "91fb55b45eb69caab4419fd700d3859db6de4809ecd9069f596e6edb5134e2a1"
+    },
+    {
+      "path": "EP09/Resources/Primitive_Kit/miliastra_core/protobuf/wire.py",
+      "bytes": 6934,
+      "sha256": "831f2d4924281d2185bdf45738c4d8c9b946f3bc4fcc822261c16aa76f0b9e97"
+    },
+    {
+      "path": "EP09/Resources/Primitive_Kit/miliastra_core/protobuf/__init__.py",
+      "bytes": 109,
+      "sha256": "91fb55b45eb69caab4419fd700d3859db6de4809ecd9069f596e6edb5134e2a1"
+    },
+    {
+      "path": "EP08/Guide/01_baseline.jpg",
+      "bytes": 167539,
+      "sha256": "4b7674938c762ea6055ab38a000b872d6d71b77b1c5c11bc219fe54e85df99ae"
+    },
+    {
+      "path": "EP08/Guide/02_fault.jpg",
+      "bytes": 223027,
+      "sha256": "55086084d076588bf985702130d70fc030a0a396fe868b36cf052c1252536d13"
+    },
+    {
+      "path": "EP08/Guide/03_empty_fault.jpg",
+      "bytes": 259438,
+      "sha256": "4deb74f895f507c44c0e80a9c03f6dc492f8c937ec3e3c0c9a9590bf18aeebfb"
+    },
+    {
+      "path": "EP08/Guide/04_one_fault.jpg",
+      "bytes": 477239,
+      "sha256": "004e2577a0a342268993e7018c8ac83918d5a7708a7934a950792c3018703417"
+    },
+    {
+      "path": "EP08/Guide/05_log.jpg",
+      "bytes": 158259,
+      "sha256": "85d84167e95953937ce64575da4e5b3534862c670e1eb1e26a83a8aaedafe0f5"
+    },
+    {
+      "path": "EP08/Guide/06_fault_result.jpg",
+      "bytes": 177289,
+      "sha256": "69a518459ac3264edab4eb5e8dad90bed7948420c7442c2259cfdac7bacf3380"
+    },
+    {
+      "path": "EP08/Guide/07_trace.jpg",
+      "bytes": 188340,
+      "sha256": "1724f66fbb68b29932759eb81047d255b48d5a47a2690211b083321997a2ceb8"
+    },
+    {
+      "path": "EP08/Guide/08_repair.jpg",
+      "bytes": 209343,
+      "sha256": "df282e9cdb1bb5a5beabbeabd9f2e1218e591fec51925d22e2a1855381912a5a"
+    },
+    {
+      "path": "EP08/Guide/09_small_test.jpg",
+      "bytes": 484952,
+      "sha256": "540fa282c3193836d33239ef3ffd9218dfc8f849bba4d27236121a91abc00ec9"
+    },
+    {
+      "path": "EP08/Guide/10_save.jpg",
+      "bytes": 196712,
+      "sha256": "96d3cc4fdb6906c0c4ce1cce02f1573d5aa95aec6bae4f23ac1d82f44012e3b7"
+    },
+    {
+      "path": "EP08/Guide/11_export.jpg",
+      "bytes": 200592,
+      "sha256": "69f7702729c98335fb2d2801fed69519cc260480c795baf0b21512338783b907"
+    },
+    {
+      "path": "EP08/Guide/12_import.jpg",
+      "bytes": 197614,
+      "sha256": "f493e415f3ed28954380037e6f59202b2d667207beb1a3ac601b26aab163db62"
+    },
+    {
+      "path": "EP08/Guide/13_scene.jpg",
+      "bytes": 353655,
+      "sha256": "be17d26188d213891f9a190a8ed349096881cc0e09a2051ecf5de976dff6b04b"
+    },
+    {
+      "path": "EP08/Guide/14_data.jpg",
+      "bytes": 203098,
+      "sha256": "0ae346b3cb60b0c1639631a08619bd62694a1186649fa630af810a9f7363f809"
+    },
+    {
+      "path": "EP08/Guide/15_connections.jpg",
+      "bytes": 267232,
+      "sha256": "bdedb161c8943c6e26bcc3796756437c2367d3730a25cb599a4d84913fc08809"
+    },
+    {
+      "path": "EP08/Guide/16_fresh.jpg",
+      "bytes": 468279,
+      "sha256": "dc89602d4e26ff8710925cf94b071b998a6af8f0bebc9a92d5dcd30ab4ae4035"
+    },
+    {
+      "path": "EP08/Guide/17_collect.jpg",
+      "bytes": 434641,
+      "sha256": "ac61de82e2e2374ffddc62640a252d746e341023ffd92d82f3849eb33e2db3bc"
+    },
+    {
+      "path": "EP08/Guide/18_natural.jpg",
+      "bytes": 238390,
+      "sha256": "9ac232ea26352a203eb67a120c1cc607442cb2a12f5d50b2745396518c375b8a"
+    },
+    {
+      "path": "EP08/Guide/19_achievements.jpg",
+      "bytes": 227494,
+      "sha256": "b55591f1cf5c924558ebc297cb08b1626372a8ae3cb7f0ac3144510d81fde655"
+    },
+    {
+      "path": "EP08/Guide/20_record.jpg",
+      "bytes": 176926,
+      "sha256": "39c7177260d7bd14b6deddc475479a4b13c925ad4ef755c21c25f497bb89a300"
+    },
+    {
+      "path": "EP08/Guide/21_checkpoint.jpg",
+      "bytes": 238019,
+      "sha256": "ce508fe0dd962ad6018cdd62844ec1b737ab3919137ab7a6c129bbdb87a107dc"
+    },
+    {
+      "path": "EP08/Guide/image_sources.json",
+      "bytes": 5457,
+      "sha256": "037cc2aa5adf08701ae5007916dd99cd5f42964fcb65d74635dd9782f704785d"
+    },
+    {
+      "path": "EP08/Resources/README_EN.txt",
+      "bytes": 697,
+      "sha256": "dbb6b6210cdbc7cc57a45129541cfbc69557c2f77d746c473ba1f501574a8edb"
+    },
+    {
+      "path": "EP08/Resources/resource_identity.json",
+      "bytes": 413,
+      "sha256": "1939f11887888cce573b8759d800e3949efaf8c12e1b8c5bef13f14b75e52e60"
+    },
+    {
+      "path": "EP08/Resources/Woodland_EP08_Restored.gil",
+      "bytes": 80366,
+      "sha256": "56cd68558eb937852547d07366611781a38e06af5f65e7b4b52a8888992f48d7"
+    },
+    {
+      "path": "EP07/Guide/01_entry.jpg",
+      "bytes": 243709,
+      "sha256": "94f52fe35e79eaf8ab9ac77e88b3fc1667f8b1c494ad25928ac251dbec51c808"
+    },
+    {
+      "path": "EP07/Guide/02_settings.jpg",
+      "bytes": 181152,
+      "sha256": "87a30140ae21e78942257b2d73766b17e2f654f9c31120f36fd6ab8a4e615e20"
+    },
+    {
+      "path": "EP07/Guide/03_ordinary.jpg",
+      "bytes": 150662,
+      "sha256": "ac5f647f370427cd121123fbe625df1b28ba6dae56b68968c33543d51b5414c9"
+    },
+    {
+      "path": "EP07/Guide/04_first_goal.jpg",
+      "bytes": 181352,
+      "sha256": "2374eeaa820df84777b56246e37cd783084405efb9eb42a1894b5c5b8460b018"
+    },
+    {
+      "path": "EP07/Guide/05_coin_goals.jpg",
+      "bytes": 173222,
+      "sha256": "7a8d0811a6913b50a0e118c30f641477b673e1ba8db72ce7d50f0c9cd93c666c"
+    },
+    {
+      "path": "EP07/Guide/06_clear_goal.jpg",
+      "bytes": 178471,
+      "sha256": "68a5dad50c574f7b0217f75661ae78c6727c6ff53aada4f2cf2d4b81fd86595c"
+    },
+    {
+      "path": "EP07/Guide/07_ultimate.jpg",
+      "bytes": 187829,
+      "sha256": "422f1de9bde890f18a6e41df2342f10ad479e70fd977735ce3608f88f2fe4fbb"
+    },
+    {
+      "path": "EP07/Guide/08_activation.jpg",
+      "bytes": 157221,
+      "sha256": "6463369b216ec47e0df7e35f4e3af283b7c3a81a618ba4e9fa6d84953e2e24ca"
+    },
+    {
+      "path": "EP07/Guide/09_progress.jpg",
+      "bytes": 182809,
+      "sha256": "f8b14bc8fde706ff04a775b0ae86880992eb8a22c701282e2f699231e2865012"
+    },
+    {
+      "path": "EP07/Guide/10_start.jpg",
+      "bytes": 198006,
+      "sha256": "6908506d6aeb731326f645899be77bfb405ac621af61d07e2576b6858397096d"
+    },
+    {
+      "path": "EP07/Guide/11_pickup.jpg",
+      "bytes": 217555,
+      "sha256": "f11a6e94384672b4dbe8341c2ac0e01a02a2381d6af1e794a6929bec39638efb"
+    },
+    {
+      "path": "EP07/Guide/12_milestones.jpg",
+      "bytes": 200966,
+      "sha256": "167a7c6b42302d051c07fd2ffe395f942940f6add22d33908681cf1227b7ed1d"
+    },
+    {
+      "path": "EP07/Guide/13_victory.jpg",
+      "bytes": 234385,
+      "sha256": "9d4b8f148d9685d97d2c87f98467c458085f931e6292a548f6773c4ee029b6c3"
+    },
+    {
+      "path": "EP07/Guide/14_carry.jpg",
+      "bytes": 172443,
+      "sha256": "b396c75c4c66e6ecdb58faab4a8f68d0563b4a06d7fe757a2237c09ed726d7ea"
+    },
+    {
+      "path": "EP07/Guide/15_save.jpg",
+      "bytes": 367541,
+      "sha256": "4195585128043056135903118bbd92fea31acadddfe800c82338b50b577abaa8"
+    },
+    {
+      "path": "EP07/Guide/16_test.jpg",
+      "bytes": 448223,
+      "sha256": "ec56e7166b6e59efee76deb194801cd1b0839ba81129416c21e1725a44df36dd"
+    },
+    {
+      "path": "EP07/Guide/17_result.jpg",
+      "bytes": 209185,
+      "sha256": "ad480e52c0bdb50639b823e3e01f21b639b710ea1ad842f308e13659a6810167"
+    },
+    {
+      "path": "EP07/Guide/18_scope.jpg",
+      "bytes": 216486,
+      "sha256": "0817c10a8cf911f5626222bacca1fa288d09a9da253519702ea105153a4671e9"
+    },
+    {
+      "path": "EP07/Guide/19_diagnose.jpg",
+      "bytes": 176876,
+      "sha256": "5021f442582d5deceb1a0012d67dac785eb93beaa236d1aa9e68ca9408b60099"
+    },
+    {
+      "path": "EP07/Guide/20_checkpoint.jpg",
+      "bytes": 206240,
+      "sha256": "db91940eb006a5b6e7b377419efe23e9bbb744dc565a93698fad7f39acdc3b84"
+    },
+    {
+      "path": "EP07/Guide/image_sources.json",
+      "bytes": 5145,
+      "sha256": "465aaa07a28e7ffd69d51abf37124a153976ac7c2428d0ec7881e91ac5510148"
+    },
+    {
+      "path": "EP07/Resources/EP07_Coin_Achievement.gia",
+      "bytes": 2453,
+      "sha256": "b4cfdaf3d341441beb145aa4b3048d6b69e5085def40e019ac6d6d1036b85089"
+    },
+    {
+      "path": "EP07/Resources/EP07_Round_Achievement.gia",
+      "bytes": 3594,
+      "sha256": "17ed49a422613a87f1f095c333dee378714fc42640453ccdc15a1c76431201a0"
+    },
+    {
+      "path": "EP07/Resources/README_EN.txt",
+      "bytes": 755,
+      "sha256": "38767cee7c63af50158bf91adc0ad613aaecae9f736ae10a6d2a69921c7970de"
+    },
+    {
+      "path": "EP07/Resources/Woodland_EP07_Achievements.gil",
+      "bytes": 80375,
+      "sha256": "572d8f7712d3a3c98ec82b0b9249b827573a07784b27bf08403e964c7c9b4c06"
+    },
+    {
+      "path": "EP07/Resources/Woodland_Ultimate_Trophy.jpg",
+      "bytes": 24376,
+      "sha256": "cbbeace5131d0cc0592cc3fe4676e01a088035444001163fb59ec0c77006f193"
+    },
+    {
+      "path": "EP06/Guide/01_timer_purpose.jpg",
+      "bytes": 156324,
+      "sha256": "0f21ead2724d0dc42d1f55f0d522b6c1b3d87af4769c2acf5c19b1cdec6e894c"
+    },
+    {
+      "path": "EP06/Guide/02_timer_create.jpg",
+      "bytes": 271771,
+      "sha256": "0b6006dcab88843401afe667775a9e67b37b8ae6d433b2393660d96d078c89aa"
+    },
+    {
+      "path": "EP06/Guide/03_timer_ui.jpg",
+      "bytes": 239883,
+      "sha256": "1720382496a02e10045ff4246d812da2985dd677dbf1860d6b46ceefa6b2d8f1"
+    },
+    {
+      "path": "EP06/Guide/04_timer_owner.jpg",
+      "bytes": 186043,
+      "sha256": "2d305b420b2c2a45dad3379f08915b5c59949f07c278093d72f838a86a8388e8"
+    },
+    {
+      "path": "EP06/Guide/05_component.jpg",
+      "bytes": 259233,
+      "sha256": "ad1412659360e50590bf9f6a7241d7c2959ed81cd916524bcc3d0d845cdfb33f"
+    },
+    {
+      "path": "EP06/Guide/06_button.jpg",
+      "bytes": 212910,
+      "sha256": "78ca833882d067ac718910853c826493de7b491e81a6279c7d906098eac103a6"
+    },
+    {
+      "path": "EP06/Guide/07_button_index.jpg",
+      "bytes": 126133,
+      "sha256": "f50a0ecd80b04a7c23096a282dbaec00cb2da70043136df5b608e1ed009ecc03"
+    },
+    {
+      "path": "EP06/Guide/08_flags.jpg",
+      "bytes": 193825,
+      "sha256": "69d3fb1a2c1667893f83a99e6b338d1fe5a98338b4951f0956082edfca2d2df3"
+    },
+    {
+      "path": "EP06/Guide/09_player_graph.jpg",
+      "bytes": 226128,
+      "sha256": "3044e1387f90eb21415a03fb9484aa286a25927555a7faec3afb531624c883d8"
+    },
+    {
+      "path": "EP06/Guide/10_probe.jpg",
+      "bytes": 156099,
+      "sha256": "95586aedd02294c296e4ff5dc3048cbdce1159c2e112f8267e0bf8accb619996"
+    },
+    {
+      "path": "EP06/Guide/11_identify.jpg",
+      "bytes": 152658,
+      "sha256": "75c0b93d5ef585dd2886df5cb98186eb531640648753dadfcb5b9435ee499999"
+    },
+    {
+      "path": "EP06/Guide/12_start_guard.jpg",
+      "bytes": 258776,
+      "sha256": "62e21206f8baac9f0632077ac55805612cafe5cd71b01b7e6dd361ad9f9bed21"
+    },
+    {
+      "path": "EP06/Guide/13_start_timer.jpg",
+      "bytes": 172873,
+      "sha256": "1238b521729ab2a85354c73d09d3aa78920a89329372d5b784f99dab6ea55621"
+    },
+    {
+      "path": "EP06/Guide/14_coin_gate.jpg",
+      "bytes": 205930,
+      "sha256": "131d18b7362e2525ef597fd43b45b8ef257750bdcc764d87fd603a50443faf39"
+    },
+    {
+      "path": "EP06/Guide/15_expiry_event.jpg",
+      "bytes": 184260,
+      "sha256": "a9da7c4f4db97eee44ad2d455d0c719bbe92b232a5b1f83c9bb8d532b45ea424"
+    },
+    {
+      "path": "EP06/Guide/16_close_gate.jpg",
+      "bytes": 215891,
+      "sha256": "531ea2711249de753e906ea5c12aecd99ec7c615e7246dcdaaf8495568f97819"
+    },
+    {
+      "path": "EP06/Guide/17_goal.jpg",
+      "bytes": 229972,
+      "sha256": "8da5d3790a84527bb65b8d1bbbf81531bd069903012253394a8973d1ab44e784"
+    },
+    {
+      "path": "EP06/Guide/18_result.jpg",
+      "bytes": 226549,
+      "sha256": "0ea12fe0d6df847285ca3cb8996af780d76f34a07c26deefedacfb61ac5374e0"
+    },
+    {
+      "path": "EP06/Guide/19_score.jpg",
+      "bytes": 206018,
+      "sha256": "cea8def21fbb9b6008c5fd3cc6e0532fb48e55756d448163a2d0e4eb22b47e69"
+    },
+    {
+      "path": "EP06/Guide/20_settle.jpg",
+      "bytes": 166479,
+      "sha256": "07a33b2c7bba76c475e5d3e1acf8402614a9759ab74b5f3fbe0d9bb4ee12dc65"
+    },
+    {
+      "path": "EP06/Guide/21_before_start.jpg",
+      "bytes": 511157,
+      "sha256": "3399b0c65f88148118bc5a0170592ec14487ab56021c92f2a2c76af9f1e9cfd6"
+    },
+    {
+      "path": "EP06/Guide/22_running.jpg",
+      "bytes": 471286,
+      "sha256": "0a5f672f48f7e1d1e7bb06546826b0843cfb791b1d96322de3c177482cde4814"
+    },
+    {
+      "path": "EP06/Guide/23_win.jpg",
+      "bytes": 142975,
+      "sha256": "9e05c0dea4708f51f727c5bfcf1a4ef38429d1c770921b6178f14ca352f2ab81"
+    },
+    {
+      "path": "EP06/Guide/24_retry.jpg",
+      "bytes": 461492,
+      "sha256": "8dc29b220f063625450fe380856ab14dbc5df19c9120eb5ff0000d62fc768d7e"
+    },
+    {
+      "path": "EP06/Guide/25_lose.jpg",
+      "bytes": 222435,
+      "sha256": "ead5c362034ba93ef62be253d1323b68e42863118b8671e5dcdfca43c487676d"
+    },
+    {
+      "path": "EP06/Guide/26_diagnose.jpg",
+      "bytes": 165197,
+      "sha256": "22b18aa95370a3631d31b959698efa756036205cb575b431aa4d92987dff4544"
+    },
+    {
+      "path": "EP06/Guide/27_checkpoint.jpg",
+      "bytes": 221011,
+      "sha256": "f212d4e7d33e043143089894c23f419d5686449ab62ddda9185169be79cea7b5"
+    },
+    {
+      "path": "EP06/Guide/image_sources.json",
+      "bytes": 7094,
+      "sha256": "b918d715da065ed759ee5daeea2cb6eac6bec69aabb773e507defda632c73c4a"
+    },
+    {
+      "path": "EP06/Resources/EP06_Round_Controller.gia",
+      "bytes": 3263,
+      "sha256": "377c726574f14893a6c5244fa4be49e9abea706019cccc18d118ad8f81095f45"
+    },
+    {
+      "path": "EP06/Resources/README_EN.txt",
+      "bytes": 849,
+      "sha256": "6859ef5b27a93855a063674a6cd360994769f478026360e3eeb85c21485af4b3"
+    },
+    {
+      "path": "EP06/Resources/Woodland_EP06_TimedRun.gil",
+      "bytes": 44064,
+      "sha256": "515d8a437dc386c7d6eb2933d6f6dac662779835459db8d43be03223dc8a2304"
+    },
+    {
+      "path": "EP05/Guide/01_copy.jpg",
+      "bytes": 240710,
+      "sha256": "940793aa806a350c48ef8dbd4180f84801c23046d2ac6b58158ac1083e346909"
+    },
+    {
+      "path": "EP05/Guide/02_library.jpg",
+      "bytes": 252858,
+      "sha256": "c2a4b72676a1a02f4707df17405688ead33a65299ae6e59bfd2b97a466b499b7"
+    },
+    {
+      "path": "EP05/Guide/03_modules.jpg",
+      "bytes": 180381,
+      "sha256": "e72db41198fb61b44c94ecf7205a655587283c2a33960759430f58e44f8002a7"
+    },
+    {
+      "path": "EP05/Guide/04_shape.jpg",
+      "bytes": 215991,
+      "sha256": "67bf85eea7b237157a5fdc407f6bdabd935d3020bf8b26423dda754a159fef35"
+    },
+    {
+      "path": "EP05/Guide/05_owner.jpg",
+      "bytes": 223514,
+      "sha256": "7c24e47271f5b265ccfb388e3c1f29e94206d111c6938d5136ae9684a35eb5b1"
+    },
+    {
+      "path": "EP05/Guide/06_style.jpg",
+      "bytes": 226956,
+      "sha256": "f98fdd15831efaacffb9da53cbe78867db51e53edfca335e703c3ff16917de82"
+    },
+    {
+      "path": "EP05/Guide/07_style_format.jpg",
+      "bytes": 227583,
+      "sha256": "55a2b7686fd0a5230f385ed7dbfcb3815357070e4aa7ca9c061128bcd6db9bdc"
+    },
+    {
+      "path": "EP05/Guide/08_preview.jpg",
+      "bytes": 189104,
+      "sha256": "6fd8ed644ed523088de74edd433a9a4e34c4bfecdfbab710541282d62913d109"
+    },
+    {
+      "path": "EP05/Guide/09_make_template.jpg",
+      "bytes": 238934,
+      "sha256": "4237cc28eb6a92b6d78019523211c842782c78f35717fb9652d2ff5d556e6fd3"
+    },
+    {
+      "path": "EP05/Guide/10_range_variables.jpg",
+      "bytes": 180281,
+      "sha256": "9066bd8cb350884f59d3a409dc298866e4e487770988797ae600527f852ed385"
+    },
+    {
+      "path": "EP05/Guide/11_range.jpg",
+      "bytes": 224229,
+      "sha256": "d378063c8245e781e4bd7f64a996255e347516c261dcbd1c41831e9b21d66892"
+    },
+    {
+      "path": "EP05/Guide/12_meaning.jpg",
+      "bytes": 264835,
+      "sha256": "d28e5220d204e399b0d8a4ff721a8b2c83667930dc8bb5f56e9df9dea6fa9ca8"
+    },
+    {
+      "path": "EP05/Guide/13_readability.jpg",
+      "bytes": 202496,
+      "sha256": "3898399af9289a27ec30e0c37d6edf3587df7f26ba7c7d50b17bf0084df5c7b1"
+    },
+    {
+      "path": "EP05/Guide/14_save_template.jpg",
+      "bytes": 194082,
+      "sha256": "fb50d718d8ae97b8451d49e09d08ba2cf1148bbcccdbe51a7a61f24689ea8b2f"
+    },
+    {
+      "path": "EP05/Guide/15_layout.jpg",
+      "bytes": 264807,
+      "sha256": "de19b734b2c640189ce177025d24ffe4d9f3741df076ace1ce440e3812ced0ee"
+    },
+    {
+      "path": "EP05/Guide/16_class.jpg",
+      "bytes": 274344,
+      "sha256": "aba1e9c0ace129baa4b069fc103937df7df6ab4d8f6d96ae44c3c731f2a5aa7d"
+    },
+    {
+      "path": "EP05/Guide/17_save_test.jpg",
+      "bytes": 255348,
+      "sha256": "1f84b492ded61e53a1e93683837e006165c2d84858f45771190f4b0d4300396f"
+    },
+    {
+      "path": "EP05/Guide/18_empty.jpg",
+      "bytes": 388154,
+      "sha256": "ee7e6976694962fb3af6b23b747718a5e5fe66f44129301dee26fba6076ec6ab"
+    },
+    {
+      "path": "EP05/Guide/19_first_coin.jpg",
+      "bytes": 371607,
+      "sha256": "9146748b93a40d077724d5af5eb6398d972cfd7818e803fbcdeb34ac99d15bb8"
+    },
+    {
+      "path": "EP05/Guide/20_all_five.jpg",
+      "bytes": 243743,
+      "sha256": "0c578338f8b06e5ee96f7d34c7d37b7dfac8ce150c0baa0e5544ef01582abb01"
+    },
+    {
+      "path": "EP05/Guide/21_retry.jpg",
+      "bytes": 432145,
+      "sha256": "384b92d7c48c59d80a5e683df1791759bab33fdc4af8666b9b72fe71c51ddc38"
+    },
+    {
+      "path": "EP05/Guide/22_missing.jpg",
+      "bytes": 179956,
+      "sha256": "5e44ac0067168a300153f695fdc69d0d94a53f1a5fe5acfadc7b6511b6e80df9"
+    },
+    {
+      "path": "EP05/Guide/23_wrong_value.jpg",
+      "bytes": 151377,
+      "sha256": "7888f174425113f1461da109c5676813826365dc98f99afd9e6c19b6ad2e5405"
+    },
+    {
+      "path": "EP05/Guide/24_checkpoint.jpg",
+      "bytes": 195746,
+      "sha256": "02d5ba7a309cbb81a9f86d7c85eff021d18a3a1aa3ca3aa91172cfbf890fbb01"
+    },
+    {
+      "path": "EP05/Guide/image_sources.json",
+      "bytes": 6269,
+      "sha256": "faf31f3394396d0d2622aa35dd0430f0829b129f240b0c29522b6ef594d82b18"
+    },
+    {
+      "path": "EP05/Resources/EP05_CoinProgress_Layout.gia",
+      "bytes": 5060,
+      "sha256": "4adef52c8dc0ca8bd6b25498828681efa81c502fe05409fadfda13d7ddb0261f"
+    },
+    {
+      "path": "EP05/Resources/README_EN.txt",
+      "bytes": 668,
+      "sha256": "b615169600392062d0dd6e94266a8a8b01b1067aab4f7332b5d758add0df1842"
+    },
+    {
+      "path": "EP05/Resources/Woodland_EP05_HUD.gil",
+      "bytes": 38044,
+      "sha256": "ea3753e4b14ee1c6b3cc2a84914f417683f370d9a98ad4e1d930d1cfb01f4c86"
+    },
+    {
+      "path": "EP04/Guide/01_dynamic.jpg",
+      "bytes": 357670,
+      "sha256": "e76dac4e39a44db6c5039e014965b4c81362e0f4f91fbce241574e8b62850fbd"
+    },
+    {
+      "path": "EP04/Guide/02_place.jpg",
+      "bytes": 374184,
+      "sha256": "9c8c0ea7fa4808caf25ccfb4cc87e8139133d3d22571105108fa9ccbbab92dff"
+    },
+    {
+      "path": "EP04/Guide/03_trigger_component.jpg",
+      "bytes": 342595,
+      "sha256": "9cdc62fba4d99c90208cb200b86657dbfd947b0ef793c4e98f5cf1b96b6dd5b8"
+    },
+    {
+      "path": "EP04/Guide/04_trigger_shape.jpg",
+      "bytes": 371042,
+      "sha256": "aa929e4d1e6e31787e548e892faf1bb2c328979654325ea551c81ca4d4ff701e"
+    },
+    {
+      "path": "EP04/Guide/05_ownership.jpg",
+      "bytes": 197013,
+      "sha256": "303c23a828ca0f192097dacca5c1ea4139b0834cd5f004aaf15d2d8f53e58942"
+    },
+    {
+      "path": "EP04/Guide/06_player_variables.jpg",
+      "bytes": 213893,
+      "sha256": "ad6647627322e25b0711533bedc9754e7d4d3f04683f89a8db25dd66531e085e"
+    },
+    {
+      "path": "EP04/Guide/07_coin_variable.jpg",
+      "bytes": 331559,
+      "sha256": "4994bc780117c5b41394c00ea02effa559a1f1fbee94c4ef1ae483da33501a23"
+    },
+    {
+      "path": "EP04/Guide/08_create_graph.jpg",
+      "bytes": 169721,
+      "sha256": "70e37c8efa5ccd53b007de2d8535e6166dcb9a48145451115d7d2afaad9b4099"
+    },
+    {
+      "path": "EP04/Guide/09_starter.jpg",
+      "bytes": 154969,
+      "sha256": "3823b8ee2459a8a0bb66928f4522cc85785f157317ff0cf5f7af03263071f8c5"
+    },
+    {
+      "path": "EP04/Guide/10_mount.jpg",
+      "bytes": 397277,
+      "sha256": "272d238a8c9490c8dc39622bbb5e6df5f5aa76c654d2bd53b09e02b7082c0649"
+    },
+    {
+      "path": "EP04/Guide/11_log.jpg",
+      "bytes": 172838,
+      "sha256": "29730f9656c058d754d033a1bb1b5af20ec4b12563363f3fbc4a5defe108f79f"
+    },
+    {
+      "path": "EP04/Guide/12_pins.jpg",
+      "bytes": 205520,
+      "sha256": "e0577c246c5c36469cbea674bc805c78c7b79cf368a4ee1e5ccb094c8481d249"
+    },
+    {
+      "path": "EP04/Guide/13_resolve_player.jpg",
+      "bytes": 195759,
+      "sha256": "00624f10729524501e3cb2ffe5cab0d935121e016622000d014dcae8dc552b81"
+    },
+    {
+      "path": "EP04/Guide/14_read_flag.jpg",
+      "bytes": 191187,
+      "sha256": "37eb7345c1b3d7838b1a53baa92dc0ecdafde2569492b2eaf10cf9c307e7bd8a"
+    },
+    {
+      "path": "EP04/Guide/15_set_flag.jpg",
+      "bytes": 235720,
+      "sha256": "46f47fb3eee6a42c8ba3f95888c377690cf55e2fbca5a75b5af593f772115377"
+    },
+    {
+      "path": "EP04/Guide/16_addition.jpg",
+      "bytes": 146163,
+      "sha256": "d22ce6d12a406e3a4a2c20b4b8bba1804349d3a4398ddbdcb34f9c388974ff4b"
+    },
+    {
+      "path": "EP04/Guide/17_write_count.jpg",
+      "bytes": 186659,
+      "sha256": "2a213ccfe11a9913a5e9e4f3e376450d264714474ab40402ddcf95a0ba9b6d01"
+    },
+    {
+      "path": "EP04/Guide/18_readback.jpg",
+      "bytes": 214800,
+      "sha256": "8f0aea72e97669ececaf8efba9b7099b0ced8f253bafc8cb34ab384dd9a681b8"
+    },
+    {
+      "path": "EP04/Guide/19_destroy.jpg",
+      "bytes": 172479,
+      "sha256": "ddf42e8c6887c3642b35e1d23ff33986d15ab1a9bd4a54423e32d8dc810aa630"
+    },
+    {
+      "path": "EP04/Guide/20_single_test.jpg",
+      "bytes": 457129,
+      "sha256": "1856357ab371f35bffe6ad240ee06d2a4e606327a5e201b4a794e34e8a7662c2"
+    },
+    {
+      "path": "EP04/Guide/21_single_log.jpg",
+      "bytes": 155804,
+      "sha256": "c7da7eae2a59edc50a24068a47842f7086158a17c7bb6499140fc422d9ce3bb3"
+    },
+    {
+      "path": "EP04/Guide/22_copies.jpg",
+      "bytes": 350276,
+      "sha256": "ef4bacecbca3154402af5c03769f986a4359985a09f8203bf78a6b0055a2fe44"
+    },
+    {
+      "path": "EP04/Guide/23_five_test.jpg",
+      "bytes": 433521,
+      "sha256": "cc4ba92887c1f7b22c4a4e8b84209a803b50bff3f93185e6aea08d2dae7548d0"
+    },
+    {
+      "path": "EP04/Guide/24_five_log.jpg",
+      "bytes": 217060,
+      "sha256": "60276417e9e4536d4a6c695289358d0cd84c9a678b38eb0ef4b6e49bf9c61ead"
+    },
+    {
+      "path": "EP04/Guide/25_retry.jpg",
+      "bytes": 441605,
+      "sha256": "8bd8f6ce6ca02d42839456045228394bdc47cd3952763d8cbb56258490b2e45c"
+    },
+    {
+      "path": "EP04/Guide/26_retry_log.jpg",
+      "bytes": 176759,
+      "sha256": "1af820128368802b6d356b5b61dcb61e3cad1a976543214eac701e69088b5c27"
+    },
+    {
+      "path": "EP04/Guide/27_checkpoint.jpg",
+      "bytes": 171047,
+      "sha256": "cf511e5a6c4a9fc748fb28ed842123241ce482789604142110a9e19df6c4465b"
+    },
+    {
+      "path": "EP04/Guide/image_sources.json",
+      "bytes": 7109,
+      "sha256": "9808e9a6f6b9169ff8c60c2ade1bc0272eb7d6b59cc281995f41410ba584d572"
+    },
+    {
+      "path": "EP04/Resources/EP04_Coin_Enter_Minimal.gia",
+      "bytes": 326,
+      "sha256": "cb904968a334c315ade1968ba788b60c61e900a9eef12a3d8e359046bf211903"
+    },
+    {
+      "path": "EP04/Resources/EP04_Coin_Pickup_Complete.gia",
+      "bytes": 1740,
+      "sha256": "7edd19065e06a2433134f47eee5292c05d112f9a4db55f86b4fa69893cb259f1"
+    },
+    {
+      "path": "EP04/Resources/EP04_Coin_Pickup_Readable.gia",
+      "bytes": 1740,
+      "sha256": "29d84d50871ca478b91d8578d99ca4021bf1fca566dcceb066134b5d1eba338e"
+    },
+    {
+      "path": "EP04/Resources/README_EN.txt",
+      "bytes": 1086,
+      "sha256": "6b1dd11e2c060d0646144619e503ecaa2a43906a3b47373562481239aed5aa6a"
+    },
+    {
+      "path": "EP04/Resources/Woodland_EP04_FiveCoins.gil",
+      "bytes": 34614,
+      "sha256": "7c7582c1ad354f6e8f0bc9feb17c3219ef12b276f8aa69ae4b5d5909674427d5"
+    },
+    {
+      "path": "EP03/Guide/01_save_first.jpg",
+      "bytes": 472440,
+      "sha256": "9105892e645f748ede25970057e49e4ad9c5a3b4f7f2176a53f61351fb6d3928"
+    },
+    {
+      "path": "EP03/Guide/02_save_page.jpg",
+      "bytes": 434831,
+      "sha256": "fd2efd116dbe269ab49c5aff5360f9e153bb2be6ccaed85d4cd3220529feea28"
+    },
+    {
+      "path": "EP03/Guide/03_copy.jpg",
+      "bytes": 450558,
+      "sha256": "745769197d1a7bb6d0c5d18d6febeb68474d7bf001b4e621425f7b3eb424d469"
+    },
+    {
+      "path": "EP03/Guide/04_export.jpg",
+      "bytes": 435474,
+      "sha256": "04bba23ae7fe058b3780906145c9921d9d9dab8fb1d6d230b753a08646265ef9"
+    },
+    {
+      "path": "EP03/Guide/05_file_names.jpg",
+      "bytes": 185186,
+      "sha256": "9fbbcc02005f3e92f0372973c22f72cd8a3dd0b356807ea3463c94e57c83869e"
+    },
+    {
+      "path": "EP03/Guide/06_gil_scope.jpg",
+      "bytes": 215818,
+      "sha256": "80dfb2e767cf2470ad2f83dfbd67dc67b50907bbd62c0c0e6e7d74242c83279c"
+    },
+    {
+      "path": "EP03/Guide/07_import.jpg",
+      "bytes": 341411,
+      "sha256": "944e856ce94c8cda8dc59c15081014aba2aed3424439e7508ecbb6268e5f4b9f"
+    },
+    {
+      "path": "EP03/Guide/08_identify.jpg",
+      "bytes": 408007,
+      "sha256": "9483d62168fbed4c8ed91662058d852bff07ae9fa87b8c37381d8f66f1bb5b41"
+    },
+    {
+      "path": "EP03/Guide/09_readback.jpg",
+      "bytes": 430459,
+      "sha256": "8324211a56a40605a4918d98d13bff7bfda3685c6ce77529a94d15959526aa60"
+    },
+    {
+      "path": "EP03/Guide/10_test.jpg",
+      "bytes": 441511,
+      "sha256": "982dcd22d46a94e4ec2776966663db9289850ba5dd090ac0bd1a18619a49e7f0"
+    },
+    {
+      "path": "EP03/Guide/11_test_scope.jpg",
+      "bytes": 404228,
+      "sha256": "c41ebdc7147f9d64045099a22af53f4fc45752077a77b0433d7508474b48b787"
+    },
+    {
+      "path": "EP03/Guide/12_two_formats.jpg",
+      "bytes": 268976,
+      "sha256": "f041ece29988b243982453b593acea10ff86218165899d443e31624f840bef81"
+    },
+    {
+      "path": "EP03/Guide/13_entity_export.jpg",
+      "bytes": 358625,
+      "sha256": "cd41186cddeeb332fe9910280234494bab31e5d86f19c53d027d939d5bf42fa0"
+    },
+    {
+      "path": "EP03/Guide/14_dependencies.jpg",
+      "bytes": 225999,
+      "sha256": "35b3828a3d7500261d2e3e6c4b07ab21b083584e0398dbae4afefbf5fd7d6752"
+    },
+    {
+      "path": "EP03/Guide/15_sandbox.jpg",
+      "bytes": 376236,
+      "sha256": "b401e999ca8d6996e56b9943c2192a0a9ad0c62f7bb92990ad7d4e87af2c706f"
+    },
+    {
+      "path": "EP03/Guide/16_load_assets.jpg",
+      "bytes": 140465,
+      "sha256": "5afe66cdb5002975102ce12c2f4b45074ea6eaff420081b45a204a1c42d7160b"
+    },
+    {
+      "path": "EP03/Guide/17_transfer.jpg",
+      "bytes": 321617,
+      "sha256": "b1e46f98e3bceefff5a5852612832670f053f723d522f9db7275c7fad2525094"
+    },
+    {
+      "path": "EP03/Guide/18_gia_result.jpg",
+      "bytes": 342883,
+      "sha256": "7296cca960cddd0429ea4685f217403a719d5b131395ce507b281bf2fff0a323"
+    },
+    {
+      "path": "EP03/Guide/19_save_sandbox.jpg",
+      "bytes": 372478,
+      "sha256": "71d1dffc09ad143579b0d05659901a38d07e2a410fa29571502ec23927113cec"
+    },
+    {
+      "path": "EP03/Guide/20_checkpoint.jpg",
+      "bytes": 233397,
+      "sha256": "d83fc94d78918996368ace61b9582624fbf0409a5fc84aefaf1371b935b66318"
+    },
+    {
+      "path": "EP03/Guide/21_files.jpg",
+      "bytes": 194736,
+      "sha256": "23de177a7fdaae19a0b1ff86b718f19fb74e6f88248a60bc30ca517bc73c0a5b"
+    },
+    {
+      "path": "EP03/Guide/image_sources.json",
+      "bytes": 5501,
+      "sha256": "14f01a9b8637ff89840171f0b4093f31c196d45846832325661040fe4e1a1191"
+    },
+    {
+      "path": "EP03/Resources/Read_me_EN.txt",
+      "bytes": 392,
+      "sha256": "9c32132c12d4ce27ca8f59e784d4ef7d57d43f1c2b9558d8ac5c216c39b6e4c4"
+    },
+    {
+      "path": "EP03/Resources/StoneRoad_EP03_Entity.gia",
+      "bytes": 551,
+      "sha256": "1fbc0a2ff8ffea7ca5a0ec1490b5bb4347c078d8c579d3357e2d6299aaa0f0af"
+    },
+    {
+      "path": "EP03/Resources/Woodland_EP03_Tutorial.gil",
+      "bytes": 29175,
+      "sha256": "b4f118b9e32fe4df653306eb1694049d71bf3ecb0a171f35440d034a04a4841d"
+    },
+    {
+      "path": "EP02/Guide/01_continue_copy.jpg",
+      "bytes": 399853,
+      "sha256": "1cf7b8a204492bf977d218a0a4abb15ed0ec7ddcf3568292c4af9cc125a38f00"
+    },
+    {
+      "path": "EP02/Guide/02_plan_route.jpg",
+      "bytes": 213067,
+      "sha256": "fe69e74dbbe503468c912dd082c5aad077ef49a6a24068b23ce6385131122161"
+    },
+    {
+      "path": "EP02/Guide/03_stone_category.jpg",
+      "bytes": 416131,
+      "sha256": "81c554ec9416c45486ffcdab403688f2c6643ce32e78787aab109b30190a73b3"
+    },
+    {
+      "path": "EP02/Guide/04_stone_position.jpg",
+      "bytes": 386503,
+      "sha256": "9deea6293d9a166f7b13074e1ee4375b1f6fd47f13c0758e5d5d08cbed9887f3"
+    },
+    {
+      "path": "EP02/Guide/05_pavilion.jpg",
+      "bytes": 424958,
+      "sha256": "176ae796e3a40333d5ba80f81f816f8de5a06bfe8b9266091e318b5fec6fdcc2"
+    },
+    {
+      "path": "EP02/Guide/06_ground_margin.jpg",
+      "bytes": 380846,
+      "sha256": "3e2c11016d2519a158b0c0b2fddf3345d8e9663e7d92c1b0106b0c27725c0321"
+    },
+    {
+      "path": "EP02/Guide/07_road_groups.jpg",
+      "bytes": 390294,
+      "sha256": "46bda2077a0ef367e413903c08eb2a70940943267039db71348c57ab870ab4b8"
+    },
+    {
+      "path": "EP02/Guide/08_first_tree.jpg",
+      "bytes": 413582,
+      "sha256": "7a9f2d7d600eaada702813d17f68a84003132786d098932a44426bcd3515794e"
+    },
+    {
+      "path": "EP02/Guide/09_three_layers.jpg",
+      "bytes": 212416,
+      "sha256": "d914b39bce22c37d8e7a772c6b63b4c33d92195b01fcfd17781ae1c08d428bf1"
+    },
+    {
+      "path": "EP02/Guide/10_tree_variation.jpg",
+      "bytes": 457025,
+      "sha256": "2f6d55df73eebe7bb31992248b968e441412e8f42de86d88ad1b376b423b854d"
+    },
+    {
+      "path": "EP02/Guide/11_shrubs.jpg",
+      "bytes": 380377,
+      "sha256": "acd8d1fdf4c0717ff06ba2558c89b05a49d545d473b21d6fce42539c0340beb8"
+    },
+    {
+      "path": "EP02/Guide/12_clear_destination.jpg",
+      "bytes": 233322,
+      "sha256": "71a317dfb6b26c7c84468d44d6fbcf6c148ba0e944dab5e35e972b214ac5b3a4"
+    },
+    {
+      "path": "EP02/Guide/13_player_height.jpg",
+      "bytes": 401552,
+      "sha256": "9c65aa3dc0ffbefc264fed2c11d04e2ecd3b02e615cd247b04b855c77e95d394"
+    },
+    {
+      "path": "EP02/Guide/14_save_for_test.jpg",
+      "bytes": 108713,
+      "sha256": "8ceba5cb503ab8665672bb1e23d8bb445999bd62f4de96cfbc91a7e71b33b477"
+    },
+    {
+      "path": "EP02/Guide/15_walk_route.jpg",
+      "bytes": 312161,
+      "sha256": "e2fd6719cd4704aea3ddaf31905c3f5d333ed34aa89f4f273469146cecfd2a92"
+    },
+    {
+      "path": "EP02/Guide/16_look_back.jpg",
+      "bytes": 467794,
+      "sha256": "f18cd779858a935794af5e9056307c2fa89a24c3091731f5a777d5290c8f9b88"
+    },
+    {
+      "path": "EP02/Guide/17_compare_scene.jpg",
+      "bytes": 276739,
+      "sha256": "102eb82aba5710a1c1ba7f1279c31dcdee63f5042351cc608b60647913de38f0"
+    },
+    {
+      "path": "EP02/Guide/18_save_copy.jpg",
+      "bytes": 468619,
+      "sha256": "6abdcfee1402df70517b30da5cf9db56e63f4955ff0a42fc5008de661ff00bcc"
+    },
+    {
+      "path": "EP02/Guide/19_checkpoint.jpg",
+      "bytes": 229950,
+      "sha256": "99d7227a55bbd1b22b25ccc8db34da0dcf29f6fe252ed9c34e5015779368999d"
+    },
+    {
+      "path": "EP02/Guide/image_sources.json",
+      "bytes": 4972,
+      "sha256": "031107097aedbec6abe552b75487853e6cbd0c1a61f5fbae81a708ca25bd8d7c"
+    },
+    {
+      "path": "EP01/Guide/01_entry.jpg",
+      "bytes": 131426,
+      "sha256": "8767fb3d7a921afb099b51a679a6f2716735509f990ef6c70803fe85b5789389"
+    },
+    {
+      "path": "EP01/Guide/02_local_save.jpg",
+      "bytes": 339672,
+      "sha256": "2b3bf98f6943750272b7671338eaace010d8065e7fc7622b99a6de6831b2aacd"
+    },
+    {
+      "path": "EP01/Guide/03_new_save.jpg",
+      "bytes": 94077,
+      "sha256": "9fb81a2191f5c13a15c68d32494e7f1e467c5997de82c5f121d17343f49c3d03"
+    },
+    {
+      "path": "EP01/Guide/04_mode.jpg",
+      "bytes": 125188,
+      "sha256": "493b05851010b92b39eacaea27240f99b896d86c89a9d9b7fe1513fd65115297"
+    },
+    {
+      "path": "EP01/Guide/05_workspace.jpg",
+      "bytes": 281512,
+      "sha256": "a3fff08aa5503ba6e2c717c61eaad451c586b70923a844879945084c7988191f"
+    },
+    {
+      "path": "EP01/Guide/06_entities.jpg",
+      "bytes": 366045,
+      "sha256": "b03e82dbe72a3cf0925b4cc75f70735f54739151b6f705432c2f6f8f7c68e6ca"
+    },
+    {
+      "path": "EP01/Guide/07_camera.jpg",
+      "bytes": 291009,
+      "sha256": "da64a13282fa75997e8354dea5e5ad2e8f42fceb604b7d23a9c8eca44eb8361b"
+    },
+    {
+      "path": "EP01/Guide/08_camera_speed.jpg",
+      "bytes": 109149,
+      "sha256": "feaabd9437c73f3ca33e531f7fbf6a2a81dcc41d6184ec719a2623317b727b51"
+    },
+    {
+      "path": "EP01/Guide/09_arbor.jpg",
+      "bytes": 374862,
+      "sha256": "40cc1600c6443e83c454a6dfbf56743b1edc088f777606a9e8ac198c248d5263"
+    },
+    {
+      "path": "EP01/Guide/10_transform.jpg",
+      "bytes": 217700,
+      "sha256": "f9d89e1c060db9d2672caec06d84de137ad01c5c7c6922642f1e75eb02da85eb"
+    },
+    {
+      "path": "EP01/Guide/11_location.jpg",
+      "bytes": 221726,
+      "sha256": "84fcf80812bf8d01f244199f4dfd375f53311a995af5e9953f491ca3a8156e6a"
+    },
+    {
+      "path": "EP01/Guide/12_rock.jpg",
+      "bytes": 340392,
+      "sha256": "b2694b4788ea8c7f828048b67eedb177e9d8a8060741a37a06566d2b91ba4a30"
+    },
+    {
+      "path": "EP01/Guide/13_rotate.jpg",
+      "bytes": 334073,
+      "sha256": "abd352545d2ad18279d2a832ef7668ff7f3b9d1703dd836a2a9e03d24adb6e1f"
+    },
+    {
+      "path": "EP01/Guide/14_scale.jpg",
+      "bytes": 156177,
+      "sha256": "e95524b4a92b18d91954e3bd515aec5f0efc082d64cb72d3d7b6fe0a9033463b"
+    },
+    {
+      "path": "EP01/Guide/15_tree_finish.jpg",
+      "bytes": 312959,
+      "sha256": "6bfd189ba32cc5ef97a0e07bb9e6b0688e6844d4b44909aae51cbc5c72c7ea5b"
+    },
+    {
+      "path": "EP01/Guide/16_spacing.jpg",
+      "bytes": 308048,
+      "sha256": "2d7fce6ce1ad6534406cc917db9f99252e59ee1e4a0faf9e13b970271b939783"
+    },
+    {
+      "path": "EP01/Guide/17_undo.jpg",
+      "bytes": 237276,
+      "sha256": "1acd7d23f547453225be62badaab75da5d60f6d003ec7a06914a298dd578f9a0"
+    },
+    {
+      "path": "EP01/Guide/18_save.jpg",
+      "bytes": 275569,
+      "sha256": "a2ae6edd5089508c28d15cc7f8f59ad4eafb82fa430750a8a904248e25b3a3ad"
+    },
+    {
+      "path": "EP01/Guide/19_test_options.jpg",
+      "bytes": 97507,
+      "sha256": "35052bd857187842430f32b3fafd53a7f596a428851d0c769ed67b97e9917fce"
+    },
+    {
+      "path": "EP01/Guide/20_walk.jpg",
+      "bytes": 205845,
+      "sha256": "537730acdc604b596376697e89e5c1af64bfa5c4b21aa100d6e84f9b770d5e4f"
+    },
+    {
+      "path": "EP01/Guide/21_return.jpg",
+      "bytes": 106003,
+      "sha256": "3a7b8ba00e569487e1eea884446bd2b5b2578fad8d6f0a9a81a2398b4825c56b"
+    },
+    {
+      "path": "EP01/Guide/image_sources.json",
+      "bytes": 5708,
+      "sha256": "5baf458d27d3417bed96cf4b306ff55ce0e82c7a1ff4189f51fe9dc0e4e6f2a5"
+    }
+  ]
+}

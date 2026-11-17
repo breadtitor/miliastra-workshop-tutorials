@@ -1,0 +1,8 @@
+Basic Function Logic & Gameplay Process / 2.6 UI Controls: Displaying Information and Triggering Events on Click
+https://act.hoyoverse.com/ys/ugc/tutorial/course/detail/mhr6jorjp77a?lang=en-us
+
+Concept Introduction / Assets / UI Controls / Progress Bar UI Controls
+https://act.hoyoverse.com/ys/ugc/tutorial/detail/mhwpzpixrad0?lang=en-us
+
+Concept Introduction / Functions / Common Components / Custom Variables
+https://act.hoyoverse.com/ys/ugc/tutorial/detail/mhso1b9wjica?lang=en-us
