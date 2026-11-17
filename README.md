@@ -10,19 +10,19 @@ The download is about 46 MB. Extract the whole ZIP before opening the illustrate
 
 ## Release schedule
 
-One lesson per day, **17:00 America/Edmonton (MST, UTC−7), November 17–25, 2026**. Videos remain private until their scheduled release. The playlist fills as lessons become public.
+One lesson per day, **17:00 America/Edmonton (ABT, UTC−6), November 17–25, 2026**. Videos remain private until their scheduled release. The playlist fills as lessons become public.
 
 | Episode | Lesson | Release in Edmonton | Guide |
 |---|---|---|---|
-| 01 | Open the editor and build your first scene | 2026-11-17 17:00 MST | [Guide](EP01/EP01_Follow_Along_EN.md) |
-| 02 | Build a scenic woodland | 2026-11-18 17:00 MST | [Guide](EP02/EP02_Follow_Along_EN.html) |
-| 03 | Save, export and import | 2026-11-19 17:00 MST | [Guide](EP03/EP03_Follow_Along_EN.html) |
-| 04 | Collect coins with native node graphs | 2026-11-20 17:00 MST | [Guide](EP04/EP04_Follow_Along_EN.html) |
-| 05 | Bind a live progress bar | 2026-11-21 17:00 MST | [Guide](EP05/EP05_Follow_Along_EN.html) |
-| 06 | Start and finish a two-minute challenge | 2026-11-22 17:00 MST | [Guide](EP06/EP06_Follow_Along_EN.html) |
-| 07 | Configure ordinary and Ultimate achievements | 2026-11-23 17:00 MST | [Guide](EP07/EP07_Follow_Along_EN.html) |
-| 08 | Diagnose a binding fault and verify a restored save | 2026-11-24 17:00 MST | [Guide](EP08/EP08_Follow_Along_EN.html) |
-| 09 | Convert a supported Blender box prop | 2026-11-25 17:00 MST | [Guide](EP09/EP09_Follow_Along_EN.html) |
+| 01 | Open the editor and build your first scene | 2026-11-17 17:00 ABT | [Guide](EP01/EP01_Follow_Along_EN.md) |
+| 02 | Build a scenic woodland | 2026-11-18 17:00 ABT | [Guide](EP02/EP02_Follow_Along_EN.html) |
+| 03 | Save, export and import | 2026-11-19 17:00 ABT | [Guide](EP03/EP03_Follow_Along_EN.html) |
+| 04 | Collect coins with native node graphs | 2026-11-20 17:00 ABT | [Guide](EP04/EP04_Follow_Along_EN.html) |
+| 05 | Bind a live progress bar | 2026-11-21 17:00 ABT | [Guide](EP05/EP05_Follow_Along_EN.html) |
+| 06 | Start and finish a two-minute challenge | 2026-11-22 17:00 ABT | [Guide](EP06/EP06_Follow_Along_EN.html) |
+| 07 | Configure ordinary and Ultimate achievements | 2026-11-23 17:00 ABT | [Guide](EP07/EP07_Follow_Along_EN.html) |
+| 08 | Diagnose a binding fault and verify a restored save | 2026-11-24 17:00 ABT | [Guide](EP08/EP08_Follow_Along_EN.html) |
+| 09 | Convert a supported Blender box prop | 2026-11-25 17:00 ABT | [Guide](EP09/EP09_Follow_Along_EN.html) |
 
 ## Follow along
 
